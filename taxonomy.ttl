@@ -10,7 +10,6 @@
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> a skos:ConceptScheme;
   dct:title "Hypotheekgegevens"@nl;
-  skos:prefLabel "Hypotheekgegevens"@nl;
   dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
   dct:created "2025-12-03T14:50:10.251Z"^^xsd:dateTime;
   dct:description "Deze taxonomie heeft betrekking op informatiegegevens van hypotheken. Nauwere concepten zijn gegevens die andere gegevens specificeren. De geboortedatum (concept ‘geboren’) is bijvoorbeeld nader dan het concept ‘persoon’, wat betekent dat het eerste concept meer informatiegegevens verschaft over het laatste concept (persoonsgegevens)."@nl;
