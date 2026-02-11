@@ -1,55 +1,30 @@
 {
-  "id": "http://example.org/colour/blue",
+  "id": "https://example.org/colour/blue",
   "type": "Concept",
   "prefLabel": {
     "en": "blue",
     "de": "Blau"
   },
-  "definition": {
-    "en": "A primary colour in the RGB colour model, between green and violet in the spectrum.",
-    "de": "Eine Primärfarbe im RGB-Farbmodell, zwischen Grün und Violett im Spektrum."
-  },
-  "notation": [
-    "C003"
-  ],
-  "narrower": [
-    {
-      "id": "http://example.org/colour/lightblue",
-      "prefLabel": {
-        "en": "light blue",
-        "de": "Hellblau"
-      }
-    }
-  ],
-  "related": [
-    {
-      "id": "http://example.org/colour/violet",
-      "prefLabel": {
-        "en": "violet",
-        "de": "Violett"
-      }
-    }
-  ],
   "inScheme": [
     {
-      "id": "http://example.org/colour/",
+      "id": "https://example.org/colour/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Colour Vocabulary",
+        "de": "Farbvokabular"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "http://example.org/colour/"
+      "id": "https://example.org/colour/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "http://example.org/colour/",
+      "id": "https://example.org/colour/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Colour Vocabulary",
+        "de": "Farbvokabular"
       }
     }
   ],
@@ -170,6 +145,39 @@
       "@container": "@set"
     },
     "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+} "broaderTransitive": {
       "@container": "@set"
     },
     "broadMatch": {
