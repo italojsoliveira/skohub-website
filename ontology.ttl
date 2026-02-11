@@ -1,0 +1,204 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/31> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedrag"@nl;
+  skos:definition """De hypotheeknemer mag niet meer, met voorrang op andere schuldeisers van de hypotheekgever, dan het inschrijvingsbedrag ontvangen ter aflossing van de oorspronkelijke schuld. Voor zover de schuld hoger is geworden ten gevolge van het niet nakomen van rentebetalingen, boetes en kosten, dan mag dat bedrag nog wel rechtstreeks uit de verkoopopbrengst aan de hypotheeknemer worden voldaan. Het bedrag dat in de hypotheekakte staat.
+
+KNB Link: https://taxonomie.knb.nl/knb/nl/page/?uri=http%3A%2F%2Fnot.zorgeloosvastgoed.nl%2Fid%2Fbegrip%2FInschrijvingsbedrag"""@nl;
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/59> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedragopslag"@nl;
+  skos:definition """Voor zover de oorspronkelijke schuld hoger is geworden ten gevolge van het niet nakomen van rentebetalingen, boetes en kosten, dan mag dat bedrag rechtstreeks uit de verkoopopbrengst aan de hypotheeknemer worden voldaan, maar nooit meer dan het bedrag dat als opslag in de hypotheekakte is vermeld.
+
+
+Het bedrag dat een hypotheeknemer - naast het inschrijvingsbedrag - op basis van de hypotheekakte maximaal mag opeisen als gevolg van niet betaalde rentes, boetes en kosten.
+
+KNB Link: https://taxonomie.knb.nl/knb/nl/page/?uri=http%3A%2F%2Fnot.zorgeloosvastgoed.nl%2Fid%2Fbegrip%2FOpslagbedrag"""@nl,
+    """Voor zover de oorspronkelijke schuld hoger is geworden ten gevolge van het niet nakomen van rentebetalingen, boetes en kosten, dan mag dat bedrag rechtstreeks uit de verkoopopbrengst aan de hypotheeknemer worden voldaan, maar nooit meer dan het bedrag dat als opslag in de hypotheekakte is vermeld.
+
+
+Boetes en kosten.
+Het bedrag dat een hypotheeknemer - naast het inschrijvingsbedrag - op basis van de hypotheekakte maximaal mag opeisen als gevolg van niet betaalde rentes.
+
+ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Opslagbedrag"""@nl;
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/60> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedrag inclusief opslag"@nl;
+  skos:definition """De hypotheeknemer mag nooit meer dan het bedrag dat als totaalbedrag in de hypotheekakte is vermeld rechtstreeks ontvangen uit de verkoopopbrengst van het onderpand.
+Het bedrag ter grootte waarvan maximaal de opbrengst van het onderpand met voorrang op andere schuldeisers ten goede mag komen voor terugbetaling van de schuld aan de hypotheeknemer.
+
+Het bedrag dat in de hypotheekakte staat.
+
+KNB Link: https://taxonomie.knb.nl/knb/nl/page/?uri=http%3A%2F%2Fnot.zorgeloosvastgoed.nl%2Fid%2Fbegrip%2FTotaalbedragInschrijving"""@nl,
+    """Het bedrag ter grootte waarvan maximaal de opbrengst van het onderpand met voorrang op andere schuldeisers ten goede mag komen voor terugbetaling van de schuld aan de hypotheeknemer.
+
+De hypotheeknemer mag nooit meer dan het bedrag dat als totaalbedrag in de hypotheekakte is vermeld rechtstreeks ontvangen uit de verkoopopbrengst van het onderpand.
+
+Het bedrag dat in de hypotheekakte staat.
+
+ZV Link: http://not.zorgeloosvastgoed.nl/id/concept/TotaalbedragInschrijving"""@nl;
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/61> a skos:Concept;
+  skos:prefLabel "onderpand"@nl;
+  skos:definition """Het recht van hypotheek wordt gevestigd op het onderpand. Een onderpand kan bestaan uit één of meerdere registergoederen.
+
+De verkoopopbrengst van het onderpand komt rechtstreeks ten goede aan de hypotheeknemer ter voldoening van de schuld van de hypotheekgever.
+
+De relatie met registergoed is een lastige. Een onderpand is geen verbijzondering van registergoed zoals een woning dat is. Maar in de context van het kopen van een huis, zou je kunnen stellen dat een onderpand juist wel een verbijzondering is van een registergoed (in de vorm van een woning), omdat er meestal sprake is van een onderpand in de vorm van een woning die is gekocht, ten behoeve van de hypotheek.
+
+ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Onderpand"""@nl;
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/62> a skos:Concept;
+  skos:prefLabel "onderpand soort"@nl;
+  skos:definition "De onderpandsoort geeft aan welk type object als zekerheid (onderpand) dient voor een lening of hypotheek. Dit kan bijvoorbeeld een woning, bedrijfsgebouw, stuk grond of een ander waardevol bezit zijn dat door de geldverstrekker wordt geaccepteerd. De onderpandsoort helpt om de aard en het risicoprofiel van het onderpand te bepalen."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/63> a skos:Concept;
+  skos:prefLabel "onderpand adres"@nl;
+  skos:definition "Het onderpandadres is het adres van het object dat als zekerheid (onderpand) dient voor een lening of hypotheek. Dit is meestal de woning of het vastgoed waarop de geldverstrekker een recht van hypotheek krijgt. Het onderpandadres wordt gebruikt om precies aan te geven welk pand juridisch verbonden is aan de financiering."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/64> a skos:Concept;
+  skos:prefLabel "partijen"@nl;
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/65> a skos:Concept;
+  skos:prefLabel "partijrol"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/66> a skos:Concept;
+  skos:prefLabel "hypotheekgever"@nl;
+  skos:definition "Persoon die aan de bank een beperkt zekerheidsrecht op zijn registergoed (hypotheek) geeft, zodat de bank het geleende geld met voorrang op andere schuldeisers kan terugkrijgen."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/67> a skos:Concept;
+  skos:prefLabel "hypotheeknemer"@nl;
+  skos:definition """Meestal de bank die aan een persoon geld leent en ter verzekering van terugbetaling het recht verkrijgt om bij voorrang op het onderzette goed (bijv. het huis) verhaal te nemen.
+
+
+bijvoorbeeld een bank,
+bijvoorbeeld een koper van een huis. Tegenover deze geldverstrekking staat dat de hypotheeknemer een hypotheek neemt op het onderpand.
+die geld uitleent aan een hypotheekgever
+Een hypotheeknemer is een geldverstrekker.
+
+ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Hypotheeknemer"""@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/68> a skos:Concept;
+  skos:prefLabel "partijtype"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/69> a skos:Concept;
+  skos:prefLabel "financiele organisatie"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/70> a skos:Concept;
+  skos:prefLabel "persoon"@nl;
+  skos:definition "Rechtssubject, zelfstandig drager van subjectieve rechten en plichten. Er zijn natuurlijke personen en rechtspersonen."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/71> a skos:Concept;
+  skos:prefLabel "voorletternaam"@nl;
+  skos:definition "Dit veld geeft de voorletters van de persoon weer."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/73> a skos:Concept;
+  skos:prefLabel "geboren"@nl;
+  skos:definition "Dit veld geeft de geboortedatum van de persoon weer. In plaats van het gebruikelijke numerieke formaat kan het ook in woorden worden uitgedrukt. Het vermelden van de geboortedatum helpt om de persoon uniek te identificeren en is belangrijk bij kredietbeoordelingen, risicobeoordeling en notariële verificatie."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/74> a skos:Concept;
+  skos:prefLabel "geslacht"@nl;
+  skos:definition "Dit veld specificeert het biologische geslacht van de persoon."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/75> a skos:Concept;
+  skos:prefLabel "geslachtsnaam"@nl;
+  skos:definition "De familienaam of geslachtsnaam van een natuurlijke persoon."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/76> a skos:Concept;
+  skos:prefLabel "nationaliteit"@nl;
+  skos:definition "Hier wordt de nationaliteit van de persoon weergegeven."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/77> a skos:Concept;
+  skos:prefLabel "persoonadres"@nl;
+  skos:definition "Het persoonadres is het officiële woon- of verblijfadres van een natuurlijke persoon."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/78> a skos:Concept;
+  skos:prefLabel "statutair naam"@nl;
+  skos:definition """De statutaire naam is de officiële, juridisch geregistreerde naam van een rechtspersoon (bijvoorbeeld een BV, NV, stichting of vereniging) zoals vastgelegd in de statuten en ingeschreven bij de Kamer van Koophandel.
+In het kader van een hypotheek wordt de statutaire naam gebruikt om exact vast te stellen welke rechtspersoon de hypotheeknemer of hypotheekgever is. Dit voorkomt verwarring met handelsnamen of merknaamvarianten."""@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/80> a skos:Concept;
+  skos:prefLabel "statutair gevestigd"@nl;
+  skos:definition """Statutair gevestigd verwijst naar de officiële, in de statuten vastgelegde zetel (juridische vestigingsplaats) van een rechtspersoon, zoals een BV, NV, stichting of vereniging. Deze plaats is ingeschreven bij de Kamer van Koophandel en bepaalt onder andere welke jurisdictie van toepassing is en waar formele documenten aan de organisatie moeten worden gericht of betekend.
+
+Deze statutaire vestigingsplaats kan afwijken van het feitelijke bezoekadres of de werkelijke bedrijfsactiviteiten"""@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/81> a skos:Concept;
+  skos:prefLabel "organisatie adres"@nl;
+  skos:definition "Het organisatieadres is het officiële adres waar een organisatie haar activiteiten uitvoert of bereikbaar is voor correspondentie. Dit kan het kantooradres, hoofdkantoor of een ander werkadres zijn dat de organisatie gebruikt voor dagelijkse bedrijfsvoering. Het organisatieadres hoeft niet hetzelfde te zijn als het statutair gevestigd adres, dat uitsluitend de juridische zetel aangeeft."@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/82> a skos:Concept;
+  skos:prefLabel "postcode"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/83> a skos:Concept;
+  skos:prefLabel "straat"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/85> a skos:Concept;
+  skos:prefLabel "huisnummer"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/86> a skos:Concept;
+  skos:prefLabel "plaats"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/87> a skos:Concept;
+  skos:prefLabel "toevoeging"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/97> a skos:Concept;
+  skos:prefLabel "straat organisatie"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/98> a skos:Concept;
+  skos:prefLabel "postcode organisatie"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/99> a skos:Concept;
+  skos:prefLabel "plaats organisatie"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/100> a skos:Concept;
+  skos:prefLabel "toevoeging organisatie"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/101> a skos:Concept;
+  skos:prefLabel "huisnummer organisatie"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/102> a skos:Concept;
+  skos:prefLabel "huisnummer onderpand"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/103> a skos:Concept;
+  skos:prefLabel "postcode onderpand"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/104> a skos:Concept;
+  skos:prefLabel "straat onderpand"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/105> a skos:Concept;
+  skos:prefLabel "plaats onderpand"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/106> a skos:Concept;
+  skos:prefLabel "toevoeging onderpand"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/107> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedrag numerical"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/108> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedrag literal"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/109> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedrag inclusief opslag literal"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/110> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedrag inclusief opslag numerical"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/111> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedragopslag literal"@nl .
+
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/112> a skos:Concept;
+  skos:prefLabel "inschrijvingsbedragopslag numerical"@nl .

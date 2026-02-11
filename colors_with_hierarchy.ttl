@@ -14,7 +14,8 @@ colour: a skos:ConceptScheme ;
 
 # --------------------
 # Violet
-# --------------------
+# --------------------git remote set-url origin git@github.com:username/repo.git
+
 
 colour:violet a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en ;
