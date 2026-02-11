@@ -1,0 +1,94 @@
+@prefix colour: <http://example.org/colour/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+colour: a skos:ConceptScheme ;
+    dct:title "Colour vocabulary with hierarchy"@en, 
+              "Farbvokabular mit Hierarchie"@de ;
+    dct:creator "Hans Dampf"@de ;
+    dct:created "2021-11-02"^^xsd:date ;
+    dct:description "A small bilingual SKOS vocabulary describing basic colour concepts and their hierarchical relations."@en ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept colour:violet, colour:green, colour:blue .
+
+# --------------------
+# Violet
+# --------------------
+
+colour:violet a skos:Concept ;
+    skos:prefLabel "Violett"@de, "violet"@en ;
+    skos:altLabel "Lila"@de, "purple"@en ;
+    skos:definition "A colour between blue and red in the visible spectrum."@en ;
+    skos:definition "Eine Farbe zwischen Blau und Rot im sichtbaren Spektrum."@de ;
+    skos:scopeNote "Use for spectral violet tones. For reddish variants, consider 'purple'."@en ;
+    skos:notation "C001" ;
+    skos:topConceptOf colour: ;
+    skos:inScheme colour: ;
+    skos:related colour:blue .
+
+# --------------------
+# Green
+# --------------------
+
+colour:green a skos:Concept ;
+    skos:prefLabel "green"@en, "Grün"@de ;
+    skos:definition "The colour between blue and yellow in the visible spectrum."@en ;
+    skos:definition "Die Farbe zwischen Blau und Gelb im sichtbaren Spektrum."@de ;
+    skos:scopeNote "Use for the general colour category green."@en ;
+    skos:narrower colour:grassgreen, colour:darkgreen ;
+    skos:notation "C002" ;
+    skos:topConceptOf colour: ;
+    skos:inScheme colour: .
+
+# --------------------
+# Grass Green
+# --------------------
+
+colour:grassgreen a skos:Concept ;
+    skos:prefLabel "grass-green"@en, "Grasgrün"@de ;
+    skos:definition "A bright yellowish green resembling the colour of fresh grass."@en ;
+    skos:definition "Ein helles, gelbliches Grün wie frisches Gras."@de ;
+    skos:broader colour:green ;
+    skos:example "The meadow was covered in grass-green plants."@en ;
+    skos:notation "C002.1" ;
+    skos:inScheme colour: .
+
+# --------------------
+# Dark Green
+# --------------------
+
+colour:darkgreen a skos:Concept ;
+    skos:prefLabel "dark green"@en, "Dunkelgrün"@de ;
+    skos:definition "A deep shade of green with low lightness."@en ;
+    skos:definition "Ein dunkler Grünton mit geringer Helligkeit."@de ;
+    skos:broader colour:green ;
+    skos:notation "C002.2" ;
+    skos:inScheme colour: .
+
+# --------------------
+# Blue
+# --------------------
+
+colour:blue a skos:Concept ;
+    skos:prefLabel "blue"@en, "Blau"@de ;
+    skos:definition "A primary colour in the RGB colour model, between green and violet in the spectrum."@en ;
+    skos:definition "Eine Primärfarbe im RGB-Farbmodell, zwischen Grün und Violett im Spektrum."@de ;
+    skos:narrower colour:lightblue ;
+    skos:notation "C003" ;
+    skos:topConceptOf colour: ;
+    skos:inScheme colour: ;
+    skos:related colour:violet .
+
+# --------------------
+# Light Blue
+# --------------------
+
+colour:lightblue a skos:Concept ;
+    skos:prefLabel "light blue"@en, "Hellblau"@de ;
+    skos:definition "A pale shade of blue with high lightness."@en ;
+    skos:definition "Ein heller Blauton mit hoher Helligkeit."@de ;
+    skos:broader colour:blue ;
+    skos:notation "C003.1" ;
+    skos:changeNote "Added as part of hierarchy extension in 2026."@en ;
+    skos:inScheme colour: .
