@@ -7,38 +7,6 @@
   "definition": {
     "nl": "Het onderpandadres is het adres van het object dat als zekerheid (onderpand) dient voor een lening of hypotheek. Dit is meestal de woning of het vastgoed waarop de geldverstrekker een recht van hypotheek krijgt. Het onderpandadres wordt gebruikt om precies aan te geven welk pand juridisch verbonden is aan de financiering."
   },
-  "narrower": [
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/102",
-      "prefLabel": {
-        "nl": "huisnummer onderpand"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/103",
-      "prefLabel": {
-        "nl": "postcode onderpand"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/104",
-      "prefLabel": {
-        "nl": "straat onderpand"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/105",
-      "prefLabel": {
-        "nl": "plaats onderpand"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/106",
-      "prefLabel": {
-        "nl": "toevoeging onderpand"
-      }
-    }
-  ],
   "broader": {
     "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/61",
     "prefLabel": {

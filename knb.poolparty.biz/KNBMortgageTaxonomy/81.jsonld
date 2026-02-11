@@ -7,38 +7,6 @@
   "definition": {
     "nl": "Het organisatieadres is het officiële adres waar een organisatie haar activiteiten uitvoert of bereikbaar is voor correspondentie. Dit kan het kantooradres, hoofdkantoor of een ander werkadres zijn dat de organisatie gebruikt voor dagelijkse bedrijfsvoering. Het organisatieadres hoeft niet hetzelfde te zijn als het statutair gevestigd adres, dat uitsluitend de juridische zetel aangeeft."
   },
-  "narrower": [
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/97",
-      "prefLabel": {
-        "nl": "straat organisatie"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/98",
-      "prefLabel": {
-        "nl": "postcode organisatie"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/99",
-      "prefLabel": {
-        "nl": "plaats organisatie"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/100",
-      "prefLabel": {
-        "nl": "toevoeging organisatie"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/101",
-      "prefLabel": {
-        "nl": "huisnummer organisatie"
-      }
-    }
-  ],
   "broader": {
     "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/69",
     "prefLabel": {

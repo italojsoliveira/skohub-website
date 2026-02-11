@@ -7,38 +7,6 @@
   "definition": {
     "nl": "Het persoonadres is het officiële woon- of verblijfadres van een natuurlijke persoon."
   },
-  "narrower": [
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/82",
-      "prefLabel": {
-        "nl": "postcode"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/83",
-      "prefLabel": {
-        "nl": "straat"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/85",
-      "prefLabel": {
-        "nl": "huisnummer"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/86",
-      "prefLabel": {
-        "nl": "plaats"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/87",
-      "prefLabel": {
-        "nl": "toevoeging"
-      }
-    }
-  ],
   "broader": {
     "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/70",
     "prefLabel": {

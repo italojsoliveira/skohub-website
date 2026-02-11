@@ -12,20 +12,6 @@
   "definition": {
     "nl": "De hypotheeknemer mag niet meer, met voorrang op andere schuldeisers van de hypotheekgever, dan het inschrijvingsbedrag ontvangen ter aflossing van de oorspronkelijke schuld. Voor zover de schuld hoger is geworden ten gevolge van het niet nakomen van rentebetalingen, boetes en kosten, dan mag dat bedrag nog wel rechtstreeks uit de verkoopopbrengst aan de hypotheeknemer worden voldaan. Het bedrag dat in de hypotheekakte staat.\n\nKNB Link: https://taxonomie.knb.nl/knb/nl/page/?uri=http%3A%2F%2Fnot.zorgeloosvastgoed.nl%2Fid%2Fbegrip%2FInschrijvingsbedrag"
   },
-  "narrower": [
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/107",
-      "prefLabel": {
-        "nl": "inschrijvingsbedrag numerical"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/108",
-      "prefLabel": {
-        "nl": "inschrijvingsbedrag literal"
-      }
-    }
-  ],
   "inScheme": [
     {
       "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/29",

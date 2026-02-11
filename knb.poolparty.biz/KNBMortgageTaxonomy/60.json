@@ -9,20 +9,6 @@
       "Totaalbedrag van de inschrijving"
     ]
   },
-  "narrower": [
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/109",
-      "prefLabel": {
-        "nl": "inschrijvingsbedrag inclusief opslag literal"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/110",
-      "prefLabel": {
-        "nl": "inschrijvingsbedrag inclusief opslag numerical"
-      }
-    }
-  ],
   "inScheme": [
     {
       "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/29",
