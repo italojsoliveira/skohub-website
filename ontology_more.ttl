@@ -8,6 +8,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix fn: <http://www.w3.org/2005/xpath-functions#> .
 
+<https://knb.poolparty.biz/KNBMortgageTaxonomy/29> a skos:ConceptScheme;
+  dct:title "Hypotheekgegevens"@nl;
+  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
+  dct:created "2025-12-03T14:50:10.251Z"^^xsd:dateTime;
+  dct:description "Deze taxonomie heeft betrekking op informatiegegevens van hypotheken. Nauwere concepten zijn gegevens die andere gegevens specificeren. De geboortedatum (concept ‘geboren’) is bijvoorbeeld nader dan het concept ‘persoon’, wat betekent dat het eerste concept meer informatiegegevens verschaft over het laatste concept (persoonsgegevens)."@nl;
+  skos:hasTopConcept <https://knb.poolparty.biz/KNBMortgageTaxonomy/31>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/59>,
+    <https://knb.poolparty.biz/KNBMortgageTaxonomy/60>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/61>,
+    <https://knb.poolparty.biz/KNBMortgageTaxonomy/64> .
+
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/31> a skos:Concept;
   skos:prefLabel "inschrijvingsbedrag"@nl;
   skos:altLabel "Bedrag zekerheidstelling"@nl;
@@ -16,9 +25,7 @@
 KNB Link: https://taxonomie.knb.nl/knb/nl/page/?uri=http%3A%2F%2Fnot.zorgeloosvastgoed.nl%2Fid%2Fbegrip%2FInschrijvingsbedrag"""@nl;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/107>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/108>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-03T14:53:29.738Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/59> a skos:Concept;
   skos:prefLabel "inschrijvingsbedragopslag"@nl;
@@ -38,9 +45,7 @@ Het bedrag dat een hypotheeknemer - naast het inschrijvingsbedrag - op basis van
 ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Opslagbedrag"""@nl;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/111>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/112>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:27:11.557Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/60> a skos:Concept;
   skos:prefLabel "inschrijvingsbedrag inclusief opslag"@nl;
@@ -60,9 +65,7 @@ Het bedrag dat in de hypotheekakte staat.
 ZV Link: http://not.zorgeloosvastgoed.nl/id/concept/TotaalbedragInschrijving"""@nl;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/109>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/110>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:28:30.071Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/61> a skos:Concept;
   skos:prefLabel "onderpand"@nl;
@@ -76,17 +79,14 @@ De relatie met registergoed is een lastige. Een onderpand is geen verbijzonderin
 ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Onderpand"""@nl;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/62>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/63>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:32:44.994Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/62> a skos:Concept;
   skos:prefLabel "onderpand soort"@nl;
   skos:definition "De onderpandsoort geeft aan welk type object als zekerheid (onderpand) dient voor een lening of hypotheek. Dit kan bijvoorbeeld een woning, bedrijfsgebouw, stuk grond of een ander waardevol bezit zijn dat door de geldverstrekker wordt geaccepteerd. De onderpandsoort helpt om de aard en het risicoprofiel van het onderpand te bepalen."@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/61>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:33:34.314Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/63> a skos:Concept;
   skos:prefLabel "onderpand adres"@nl;
@@ -96,24 +96,20 @@ ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Onderpand"""@nl;
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/104>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/105>,
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/106>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:33:45.597Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/64> a skos:Concept;
   skos:prefLabel "partijen"@nl;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/65>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/68>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:42:03.495Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/65> a skos:Concept;
   skos:prefLabel "partijrol"@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/64>;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/66>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/67>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:44:07.695Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/66> a skos:Concept;
   skos:prefLabel "hypotheekgever"@nl;
@@ -121,8 +117,7 @@ ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Onderpand"""@nl;
   skos:scopeNote "Als een schuldenaar zijn verplichting niet nakomt, is de borg verplicht om de borgsom te betalen aan de schuldeiser. De borg krijgt daarna een vordering op de schuldenaar."@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/65>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:44:22.764Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/67> a skos:Concept;
   skos:prefLabel "hypotheeknemer"@nl;
@@ -137,16 +132,14 @@ Een hypotheeknemer is een geldverstrekker.
 ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Hypotheeknemer"""@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/65>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:44:34.765Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/68> a skos:Concept;
   skos:prefLabel "partijtype"@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/64>;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/69>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/70>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:45:16.710Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/69> a skos:Concept;
   skos:prefLabel "financiele organisatie"@nl;
@@ -154,8 +147,7 @@ ZV Link: http://fin.zorgeloosvastgoed.nl/id/concept/Hypotheeknemer"""@nl;
   skos:narrower <https://knb.poolparty.biz/KNBMortgageTaxonomy/78>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/80>,
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/81>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:45:27.638Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/70> a skos:Concept;
   skos:prefLabel "persoon"@nl;
@@ -167,48 +159,42 @@ Hoewel de definitie van de KNB net iets anders is geformuleerd dan die van de BR
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/74>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/75>,
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/76>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/77>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:45:38.141Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/71> a skos:Concept;
   skos:prefLabel "voorletternaam"@nl;
   skos:definition "Dit veld geeft de voorletters van de persoon weer."@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/70>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:45:54.412Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/73> a skos:Concept;
   skos:prefLabel "geboren"@nl;
   skos:definition "Dit veld geeft de geboortedatum van de persoon weer. In plaats van het gebruikelijke numerieke formaat kan het ook in woorden worden uitgedrukt. Het vermelden van de geboortedatum helpt om de persoon uniek te identificeren en is belangrijk bij kredietbeoordelingen, risicobeoordeling en notariële verificatie."@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/70>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:46:23.740Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/74> a skos:Concept;
   skos:prefLabel "geslacht"@nl;
   skos:definition "Dit veld specificeert het biologische geslacht van de persoon."@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/70>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:46:30.224Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/75> a skos:Concept;
   skos:prefLabel "geslachtsnaam"@nl;
   skos:definition "De familienaam of geslachtsnaam van een natuurlijke persoon."@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/70>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:47:22.522Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/76> a skos:Concept;
   skos:prefLabel "nationaliteit"@nl;
   skos:definition "Hier wordt de nationaliteit van de persoon weergegeven."@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/70>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:47:33.515Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/77> a skos:Concept;
   skos:prefLabel "persoonadres"@nl;
@@ -218,8 +204,7 @@ Hoewel de definitie van de KNB net iets anders is geformuleerd dan die van de BR
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/85>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/86>,
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/87>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:47:42.065Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/78> a skos:Concept;
   skos:prefLabel "statutair naam"@nl;
@@ -227,8 +212,7 @@ Hoewel de definitie van de KNB net iets anders is geformuleerd dan die van de BR
 In het kader van een hypotheek wordt de statutaire naam gebruikt om exact vast te stellen welke rechtspersoon de hypotheeknemer of hypotheekgever is. Dit voorkomt verwarring met handelsnamen of merknaamvarianten."""@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/69>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:47:57.974Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/80> a skos:Concept;
   skos:prefLabel "statutair gevestigd"@nl;
@@ -237,8 +221,7 @@ In het kader van een hypotheek wordt de statutaire naam gebruikt om exact vast t
 Deze statutaire vestigingsplaats kan afwijken van het feitelijke bezoekadres of de werkelijke bedrijfsactiviteiten"""@nl;
   skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/69>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:48:54.893Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
 
 <https://knb.poolparty.biz/KNBMortgageTaxonomy/81> a skos:Concept;
   skos:prefLabel "organisatie adres"@nl;
@@ -248,131 +231,4 @@ Deze statutaire vestigingsplaats kan afwijken van het feitelijke bezoekadres of 
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/99>, <https://knb.poolparty.biz/KNBMortgageTaxonomy/100>,
     <https://knb.poolparty.biz/KNBMortgageTaxonomy/101>;
   skos:inScheme <https://knb.poolparty.biz/KNBMortgageTaxonomy/29>;
-  dct:creator <https://knb.poolparty.biz/user/fda355c8-e0a6-4a00-88a9-4f918e64c2bf>;
-  dct:created "2025-12-08T14:49:02.206Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/82> a skos:Concept;
-  skos:prefLabel "postcode"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/77>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-04T09:54:15.491Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/83> a skos:Concept;
-  skos:prefLabel "straat"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/77>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-04T09:54:44.986Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/85> a skos:Concept;
-  skos:prefLabel "huisnummer"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/77>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-04T09:59:54.292Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/86> a skos:Concept;
-  skos:prefLabel "plaats"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/77>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-04T10:13:42.147Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/87> a skos:Concept;
-  skos:prefLabel "toevoeging"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/77>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-04T12:51:53.254Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/97> a skos:Concept;
-  skos:prefLabel "straat organisatie"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/81>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-05T14:22:00.712Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/98> a skos:Concept;
-  skos:prefLabel "postcode organisatie"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/81>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-05T14:22:06.587Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/99> a skos:Concept;
-  skos:prefLabel "plaats organisatie"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/81>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-05T14:22:14.997Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/100> a skos:Concept;
-  skos:prefLabel "toevoeging organisatie"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/81>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-05T14:22:25.109Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/101> a skos:Concept;
-  skos:prefLabel "huisnummer organisatie"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/81>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-05T14:22:37.060Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/102> a skos:Concept;
-  skos:prefLabel "huisnummer onderpand"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/63>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:31:12.318Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/103> a skos:Concept;
-  skos:prefLabel "postcode onderpand"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/63>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:31:23.555Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/104> a skos:Concept;
-  skos:prefLabel "straat onderpand"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/63>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:31:30.484Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/105> a skos:Concept;
-  skos:prefLabel "plaats onderpand"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/63>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:31:36.623Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/106> a skos:Concept;
-  skos:prefLabel "toevoeging onderpand"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/63>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:31:53.809Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/107> a skos:Concept;
-  skos:prefLabel "inschrijvingsbedrag numerical"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/31>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:33:36.742Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/108> a skos:Concept;
-  skos:prefLabel "inschrijvingsbedrag literal"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/31>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:33:42.851Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/109> a skos:Concept;
-  skos:prefLabel "inschrijvingsbedrag inclusief opslag literal"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/60>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:33:58.491Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/110> a skos:Concept;
-  skos:prefLabel "inschrijvingsbedrag inclusief opslag numerical"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/60>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:34:04.890Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/111> a skos:Concept;
-  skos:prefLabel "inschrijvingsbedragopslag literal"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/59>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:34:19.042Z"^^xsd:dateTime .
-
-<https://knb.poolparty.biz/KNBMortgageTaxonomy/112> a skos:Concept;
-  skos:prefLabel "inschrijvingsbedragopslag numerical"@nl;
-  skos:broader <https://knb.poolparty.biz/KNBMortgageTaxonomy/59>;
-  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
-  dct:created "2026-02-06T09:34:25.243Z"^^xsd:dateTime .
+  skos:topConceptOf <https://knb.poolparty.biz/KNBMortgageTaxonomy/29> .
