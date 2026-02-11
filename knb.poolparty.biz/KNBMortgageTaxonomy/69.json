@@ -32,11 +32,7 @@
   },
   "inScheme": [
     {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/29",
-      "title": {
-        "en": "Mortgage Taxonomy",
-        "nl": "Hypotheekgegevens"
-      }
+      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/29"
     }
   ],
   "inSchemeAll": [
@@ -46,11 +42,7 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/29",
-      "title": {
-        "en": "Mortgage Taxonomy",
-        "nl": "Hypotheekgegevens"
-      }
+      "id": "https://knb.poolparty.biz/KNBMortgageTaxonomy/29"
     }
   ],
   "@context": {
