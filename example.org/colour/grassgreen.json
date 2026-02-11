@@ -1,39 +1,27 @@
 {
-  "id": "http://example.org/colour/violet",
+  "id": "http://example.org/colour/grassgreen",
   "type": "Concept",
   "prefLabel": {
-    "en": "violet",
-    "de": "Violett"
-  },
-  "altLabel": {
-    "en": [
-      "purple"
-    ],
-    "de": [
-      "Lila"
-    ]
+    "en": "grass-green",
+    "de": "Grasgrün"
   },
   "definition": {
-    "en": "A colour between blue and red in the visible spectrum.",
-    "de": "Eine Farbe zwischen Blau und Rot im sichtbaren Spektrum."
-  },
-  "scopeNote": {
-    "en": [
-      "Use for spectral violet tones. For reddish variants, consider 'purple'."
-    ]
+    "en": "A bright yellowish green resembling the colour of fresh grass.",
+    "de": "Ein helles, gelbliches Grün wie frisches Gras."
   },
   "notation": [
-    "C001"
+    "C002.1"
   ],
-  "related": [
-    {
-      "id": "http://example.org/colour/blue",
-      "prefLabel": {
-        "en": "blue",
-        "de": "Blau"
-      }
+  "example": {
+    "en": "The meadow was covered in grass-green plants."
+  },
+  "broader": {
+    "id": "http://example.org/colour/green",
+    "prefLabel": {
+      "en": "green",
+      "de": "Grün"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "http://example.org/colour/",
@@ -46,15 +34,6 @@
   "inSchemeAll": [
     {
       "id": "http://example.org/colour/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "http://example.org/colour/",
-      "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
-      }
     }
   ],
   "@context": {

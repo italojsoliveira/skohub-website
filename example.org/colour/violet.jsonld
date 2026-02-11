@@ -1,5 +1,5 @@
 {
-  "id": "https://example.org/colour/violet",
+  "id": "http://example.org/colour/violet",
   "type": "Concept",
   "prefLabel": {
     "en": "violet",
@@ -13,26 +13,47 @@
       "Lila"
     ]
   },
+  "definition": {
+    "en": "A colour between blue and red in the visible spectrum.",
+    "de": "Eine Farbe zwischen Blau und Rot im sichtbaren Spektrum."
+  },
+  "scopeNote": {
+    "en": [
+      "Use for spectral violet tones. For reddish variants, consider 'purple'."
+    ]
+  },
+  "notation": [
+    "C001"
+  ],
+  "related": [
+    {
+      "id": "http://example.org/colour/blue",
+      "prefLabel": {
+        "en": "blue",
+        "de": "Blau"
+      }
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://example.org/colour/",
+      "id": "http://example.org/colour/",
       "title": {
-        "en": "Colour Vocabulary",
-        "de": "Farbvokabular"
+        "en": "Colour vocabulary with hierarchy",
+        "de": "Farbvokabular mit Hierarchie"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://example.org/colour/"
+      "id": "http://example.org/colour/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://example.org/colour/",
+      "id": "http://example.org/colour/",
       "title": {
-        "en": "Colour Vocabulary",
-        "de": "Farbvokabular"
+        "en": "Colour vocabulary with hierarchy",
+        "de": "Farbvokabular mit Hierarchie"
       }
     }
   ],

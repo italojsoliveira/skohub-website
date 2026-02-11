@@ -1,36 +1,35 @@
 {
-  "id": "http://example.org/colour/violet",
+  "id": "http://example.org/colour/green",
   "type": "Concept",
   "prefLabel": {
-    "en": "violet",
-    "de": "Violett"
-  },
-  "altLabel": {
-    "en": [
-      "purple"
-    ],
-    "de": [
-      "Lila"
-    ]
+    "en": "green",
+    "de": "Grün"
   },
   "definition": {
-    "en": "A colour between blue and red in the visible spectrum.",
-    "de": "Eine Farbe zwischen Blau und Rot im sichtbaren Spektrum."
+    "en": "The colour between blue and yellow in the visible spectrum.",
+    "de": "Die Farbe zwischen Blau und Gelb im sichtbaren Spektrum."
   },
   "scopeNote": {
     "en": [
-      "Use for spectral violet tones. For reddish variants, consider 'purple'."
+      "Use for the general colour category green."
     ]
   },
   "notation": [
-    "C001"
+    "C002"
   ],
-  "related": [
+  "narrower": [
     {
-      "id": "http://example.org/colour/blue",
+      "id": "http://example.org/colour/grassgreen",
       "prefLabel": {
-        "en": "blue",
-        "de": "Blau"
+        "en": "grass-green",
+        "de": "Grasgrün"
+      }
+    },
+    {
+      "id": "http://example.org/colour/darkgreen",
+      "prefLabel": {
+        "en": "dark green",
+        "de": "Dunkelgrün"
       }
     }
   ],
