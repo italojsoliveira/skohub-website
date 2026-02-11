@@ -1,1 +1,1 @@
-{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://knb.poolparty.biz/KNBMortgageTaxonomy/29","fields":{"languages":["nl"]}}}]}}}
+{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://knb.poolparty.biz/dossiertype/1","fields":{"languages":["nl"]}}},{"node":{"id":"https://knb.poolparty.biz/KNBMortgageTaxonomy/29","fields":{"languages":["nl"]}}}]}}}
