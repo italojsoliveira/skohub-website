@@ -1,0 +1,130 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://knb.poolparty.biz/dossiertype/1> a skos:ConceptScheme;
+  dct:title "dossier type"@nl;
+  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
+  dct:created "2025-12-31T09:16:20.797Z"^^xsd:dateTime;
+  skos:hasTopConcept <https://knb.poolparty.biz/dossiertype/2>, <https://knb.poolparty.biz/dossiertype/3>,
+    <https://knb.poolparty.biz/dossiertype/4>, <https://knb.poolparty.biz/dossiertype/5>,
+    <https://knb.poolparty.biz/dossiertype/6>, <https://knb.poolparty.biz/dossiertype/8>,
+    <https://knb.poolparty.biz/dossiertype/9>, <https://knb.poolparty.biz/dossiertype/10>,
+    <https://knb.poolparty.biz/dossiertype/11>, <https://knb.poolparty.biz/dossiertype/12>,
+    <https://knb.poolparty.biz/dossiertype/13>, <https://knb.poolparty.biz/dossiertype/14>,
+    <https://knb.poolparty.biz/dossiertype/15>, <https://knb.poolparty.biz/dossiertype/16>,
+    <https://knb.poolparty.biz/dossiertype/17>, <https://knb.poolparty.biz/dossiertype/18>,
+    <https://knb.poolparty.biz/dossiertype/19> .
+
+<https://knb.poolparty.biz/dossiertype/2> a skos:Concept;
+  skos:prefLabel "Object type"@nl;
+  skos:definition "Bedoeld om records op verschillende hiërarchische niveaus (bijvoorbeeld: document, dossier, bestand) te kunnen groeperen. Door afspraken te maken tussen organisaties over te onderscheiden aggregatieniveaus kan informatie/records gemakkelijker uitgewisseld worden."@nl;
+  skos:scopeNote "Content type 'rdoc:dossiertypefolder' met cm:folder als base type. Dit is op dit niveau gelijk aan 'Serie'"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/3> a skos:Concept;
+  skos:prefLabel "Object ID"@nl;
+  skos:definition "Technische ID in het DMS om een dossier uniek te kunnen identificeren."@nl;
+  skos:scopeNote "cmis:objectId is ook nodig voor het ophalen van de node en is onderdeel van de Raadpleeglocatie"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/4> a skos:Concept;
+  skos:prefLabel "Naam"@nl;
+  skos:definition "Beknopte formeelinhoudelijk beschrijving (titel) van het record"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/5> a skos:Concept;
+  skos:prefLabel "Categorie"@nl;
+  skos:definition "Categorie van het dossiertype"@nl;
+  skos:scopeNote "Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/6> a skos:Concept;
+  skos:prefLabel "Werkprocess"@nl;
+  skos:definition "Werkproces waarin het dossiertype valt. Vaak is dit ook een omschrijving van de (bedrijfs)activiteit"@nl;
+  skos:scopeNote "Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/8> a skos:Concept;
+  skos:prefLabel "DossiertypeCode"@nl;
+  skos:definition "Functionele identificatie van het dossiertype. Dit kan hetzelfde zijn als Dossiertype OF een identificatie voor uitwisseling met andere applicaties."@nl;
+  skos:scopeNote "Dit kan afkomstig zijn uit het DMS of uit een externe bron zoals een bronapplicatie of ZTC"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/9> a skos:Concept;
+  skos:prefLabel "DossiertypeCodeBron"@nl;
+  skos:definition "Alleen invullen indien dit uit een externe bronapplicatie komt. Indien leeg dan komt het dossiertype uit het DMS"@nl;
+  skos:scopeNote "Dit kan afkomstig zijn uit het DMS of uit een externe bron zoals een bronapplicatie of ZTC"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/10> a skos:Concept;
+  skos:prefLabel "Titel"@nl;
+  skos:definition "Vrije tekst met titel"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/11> a skos:Concept;
+  skos:prefLabel "Omschrijving"@nl;
+  skos:definition "Vrije tekst met nadere beschrijving"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/12> a skos:Concept;
+  skos:prefLabel "Gewijzig door"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/13> a skos:Concept;
+  skos:prefLabel "Datum gewijzigd"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/14> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:definition "Dit kan een andere waarde betreffen dan cm:creator, indien cm:creator door een Service Account wordt ingevuld"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/15> a skos:Concept;
+  skos:prefLabel "Creatiedatum"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/16> a skos:Concept;
+  skos:prefLabel "Tags"@nl;
+  skos:definition "Trefwoorden"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/17> a skos:Concept;
+  skos:prefLabel "Gewijzigd door"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/18> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
+
+<https://knb.poolparty.biz/dossiertype/19> a skos:Concept;
+  skos:prefLabel "Dossiertype"@nl;
+  skos:definition """Classificatie brengt samenhang tussen records (ordening). Classificatie moet herleidbaar zijn tot activiteiten dan wel werkprocessen om die samenhang te kunnen duiden en om van daaruit records in hun onderlinge
+relatie te kunnen zoeken. Sluit bovendien goed aan bij belevingswereld van gebruiker."""@nl;
+  skos:scopeNote "Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd"@nl;
+  skos:inScheme <https://knb.poolparty.biz/dossiertype/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertype/1> .
