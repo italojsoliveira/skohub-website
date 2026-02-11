@@ -1,55 +1,46 @@
 {
-  "id": "http://example.org/colour/blue",
+  "id": "http://example.org/energy/hydro",
   "type": "Concept",
   "prefLabel": {
-    "en": "blue",
-    "de": "Blau"
+    "en": "hydroelectric energy",
+    "de": "Wasserkraft"
   },
   "definition": {
-    "en": "A primary colour in the RGB colour model, between green and violet in the spectrum.",
-    "de": "Eine Primärfarbe im RGB-Farbmodell, zwischen Grün und Violett im Spektrum."
+    "en": "Electricity produced from generators driven by turbines that convert the potential energy of falling or fast-flowing water.",
+    "de": "Strom aus Generatoren, die durch Turbinen angetrieben werden, die die Energie von fließendem Wasser umwandeln."
   },
   "notation": [
-    "C003"
+    "E003"
   ],
   "narrower": [
     {
-      "id": "http://example.org/colour/lightblue",
+      "id": "http://example.org/energy/runofriver",
       "prefLabel": {
-        "en": "light blue",
-        "de": "Hellblau"
-      }
-    }
-  ],
-  "related": [
-    {
-      "id": "http://example.org/colour/violet",
-      "prefLabel": {
-        "en": "violet",
-        "de": "Violett"
+        "en": "run-of-river",
+        "de": "Laufwasserkraft"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "http://example.org/colour/",
+      "id": "http://example.org/energy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Renewable Energy Taxonomy",
+        "de": "Taxonomie Erneuerbarer Energien"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "http://example.org/colour/"
+      "id": "http://example.org/energy/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "http://example.org/colour/",
+      "id": "http://example.org/energy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Renewable Energy Taxonomy",
+        "de": "Taxonomie Erneuerbarer Energien"
       }
     }
   ],

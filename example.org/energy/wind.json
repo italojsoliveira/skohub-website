@@ -1,55 +1,67 @@
 {
-  "id": "http://example.org/colour/blue",
+  "id": "http://example.org/energy/wind",
   "type": "Concept",
   "prefLabel": {
-    "en": "blue",
-    "de": "Blau"
+    "en": "wind power",
+    "de": "Windenergie"
   },
   "definition": {
-    "en": "A primary colour in the RGB colour model, between green and violet in the spectrum.",
-    "de": "Eine Primärfarbe im RGB-Farbmodell, zwischen Grün und Violett im Spektrum."
+    "en": "The use of air flow through wind turbines to provide mechanical power to turn electric generators.",
+    "de": "Nutzung von Luftströmungen mittels Windkraftanlagen zur Stromerzeugung."
+  },
+  "scopeNote": {
+    "en": [
+      "Use for both onshore and offshore wind farms."
+    ]
   },
   "notation": [
-    "C003"
+    "E002"
   ],
   "narrower": [
     {
-      "id": "http://example.org/colour/lightblue",
+      "id": "http://example.org/energy/offshore",
       "prefLabel": {
-        "en": "light blue",
-        "de": "Hellblau"
+        "en": "offshore wind",
+        "de": "Offshore-Wind"
+      }
+    },
+    {
+      "id": "http://example.org/energy/onshore",
+      "prefLabel": {
+        "en": "onshore wind",
+        "de": "Onshore-Wind"
       }
     }
   ],
   "related": [
     {
-      "id": "http://example.org/colour/violet",
+      "id": "http://example.org/energy/solar",
       "prefLabel": {
-        "en": "violet",
-        "de": "Violett"
+        "en": "solar power",
+        "de": "Solarenergie"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "http://example.org/colour/",
+      "id": "http://example.org/energy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Renewable Energy Taxonomy",
+        "de": "Taxonomie Erneuerbarer Energien"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "http://example.org/colour/"
+      "id": "http://example.org/energy/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "http://example.org/colour/",
+      "id": "http://example.org/energy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Renewable Energy Taxonomy",
+        "de": "Taxonomie Erneuerbarer Energien"
       }
     }
   ],

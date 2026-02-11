@@ -1,55 +1,59 @@
 {
-  "id": "http://example.org/colour/blue",
+  "id": "http://example.org/energy/solar",
   "type": "Concept",
   "prefLabel": {
-    "en": "blue",
-    "de": "Blau"
+    "en": "solar power",
+    "de": "Solarenergie"
+  },
+  "altLabel": {
+    "en": [
+      "PV"
+    ],
+    "de": [
+      "Photovoltaik"
+    ]
   },
   "definition": {
-    "en": "A primary colour in the RGB colour model, between green and violet in the spectrum.",
-    "de": "Eine Primärfarbe im RGB-Farbmodell, zwischen Grün und Violett im Spektrum."
+    "en": "Energy harnessed from sunlight using various technologies.",
+    "de": "Energie, die mit verschiedenen Technologien aus dem Sonnenlicht gewonnen wird."
+  },
+  "scopeNote": {
+    "en": [
+      "Includes both thermal and photovoltaic conversion."
+    ]
   },
   "notation": [
-    "C003"
-  ],
-  "narrower": [
-    {
-      "id": "http://example.org/colour/lightblue",
-      "prefLabel": {
-        "en": "light blue",
-        "de": "Hellblau"
-      }
-    }
+    "E001"
   ],
   "related": [
     {
-      "id": "http://example.org/colour/violet",
+      "id": "http://example.org/energy/wind",
       "prefLabel": {
-        "en": "violet",
-        "de": "Violett"
+        "en": "wind power",
+        "de": "Windenergie"
       }
     }
   ],
   "inScheme": [
     {
-      "id": "http://example.org/colour/",
+      "id": "http://example.org/energy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Renewable Energy Taxonomy",
+        "de": "Taxonomie Erneuerbarer Energien"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "http://example.org/colour/"
+      "id": "http://example.org/energy/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "http://example.org/colour/",
+      "id": "http://example.org/energy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Renewable Energy Taxonomy",
+        "de": "Taxonomie Erneuerbarer Energien"
       }
     }
   ],

@@ -1,56 +1,41 @@
 {
-  "id": "http://example.org/colour/blue",
+  "id": "http://example.org/energy/runofriver",
   "type": "Concept",
   "prefLabel": {
-    "en": "blue",
-    "de": "Blau"
+    "en": "run-of-river",
+    "de": "Laufwasserkraft"
   },
   "definition": {
-    "en": "A primary colour in the RGB colour model, between green and violet in the spectrum.",
-    "de": "Eine Primärfarbe im RGB-Farbmodell, zwischen Grün und Violett im Spektrum."
+    "en": "Hydroelectric generation that harvests energy from flowing water without massive reservoirs.",
+    "de": "Wasserkraftwerke, die die Energie fließender Gewässer ohne große Stauseen nutzen."
+  },
+  "changeNote": {
+    "en": [
+      "Added to differentiate from reservoir-based hydro in 2026."
+    ]
   },
   "notation": [
-    "C003"
+    "E003.1"
   ],
-  "narrower": [
-    {
-      "id": "http://example.org/colour/lightblue",
-      "prefLabel": {
-        "en": "light blue",
-        "de": "Hellblau"
-      }
+  "broader": {
+    "id": "http://example.org/energy/hydro",
+    "prefLabel": {
+      "en": "hydroelectric energy",
+      "de": "Wasserkraft"
     }
-  ],
-  "related": [
-    {
-      "id": "http://example.org/colour/violet",
-      "prefLabel": {
-        "en": "violet",
-        "de": "Violett"
-      }
-    }
-  ],
+  },
   "inScheme": [
     {
-      "id": "http://example.org/colour/",
+      "id": "http://example.org/energy/",
       "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "en": "Renewable Energy Taxonomy",
+        "de": "Taxonomie Erneuerbarer Energien"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "http://example.org/colour/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "http://example.org/colour/",
-      "title": {
-        "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
-      }
+      "id": "http://example.org/energy/"
     }
   ],
   "@context": {
