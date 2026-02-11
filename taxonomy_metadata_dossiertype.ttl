@@ -20,7 +20,8 @@
     <https://knb.poolparty.biz/dossiertype/13>, <https://knb.poolparty.biz/dossiertype/14>,
     <https://knb.poolparty.biz/dossiertype/15>, <https://knb.poolparty.biz/dossiertype/16>,
     <https://knb.poolparty.biz/dossiertype/17>, <https://knb.poolparty.biz/dossiertype/18>,
-    <https://knb.poolparty.biz/dossiertype/19> .
+    <https://knb.poolparty.biz/dossiertype/19> ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> . # added by me.
 
 <https://knb.poolparty.biz/dossiertype/2> a skos:Concept;
   skos:prefLabel "Object type"@nl;
