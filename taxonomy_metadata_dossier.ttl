@@ -1,0 +1,500 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://knb.poolparty.biz/metadata/71> a skos:ConceptScheme;
+  dct:title "dossier"@nl;
+  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
+  dct:created "2025-12-29T14:10:39.187Z"^^xsd:dateTime;
+  skos:hasTopConcept <https://knb.poolparty.biz/metadata/72>, <https://knb.poolparty.biz/metadata/73>,
+    <https://knb.poolparty.biz/metadata/74>, <https://knb.poolparty.biz/metadata/75>,
+    <https://knb.poolparty.biz/metadata/77>, <https://knb.poolparty.biz/metadata/78>,
+    <https://knb.poolparty.biz/metadata/79>, <https://knb.poolparty.biz/metadata/80>,
+    <https://knb.poolparty.biz/metadata/81>, <https://knb.poolparty.biz/metadata/82>,
+    <https://knb.poolparty.biz/metadata/83>, <https://knb.poolparty.biz/metadata/84>,
+    <https://knb.poolparty.biz/metadata/85>, <https://knb.poolparty.biz/metadata/86>,
+    <https://knb.poolparty.biz/metadata/87>, <https://knb.poolparty.biz/metadata/88>,
+    <https://knb.poolparty.biz/metadata/89>, <https://knb.poolparty.biz/metadata/90>,
+    <https://knb.poolparty.biz/metadata/91>, <https://knb.poolparty.biz/metadata/92>,
+    <https://knb.poolparty.biz/metadata/93>, <https://knb.poolparty.biz/metadata/94>,
+    <https://knb.poolparty.biz/metadata/95>, <https://knb.poolparty.biz/metadata/96>,
+    <https://knb.poolparty.biz/metadata/97>, <https://knb.poolparty.biz/metadata/98>,
+    <https://knb.poolparty.biz/metadata/99>, <https://knb.poolparty.biz/metadata/100>,
+    <https://knb.poolparty.biz/metadata/101>, <https://knb.poolparty.biz/metadata/102>,
+    <https://knb.poolparty.biz/metadata/103>, <https://knb.poolparty.biz/metadata/105>,
+    <https://knb.poolparty.biz/metadata/106>, <https://knb.poolparty.biz/metadata/107>,
+    <https://knb.poolparty.biz/metadata/108> ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> . # added by me
+
+<https://knb.poolparty.biz/metadata/72> a skos:Concept;
+  skos:prefLabel "Dossieridentificatie"@nl;
+  skos:definition "Functioneel ID om een dossier uniek te kunnen identificeren."@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/119>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/73> a skos:Concept;
+  skos:prefLabel "Categorie"@nl;
+  skos:definition "Categorie van het dossier"@nl;
+  skos:scopeNote """Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd.
+Wordt overgeerft van dossiertype folder: moet ingericht worden"""@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/114>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/74> a skos:Concept;
+  skos:prefLabel "Werkproces"@nl;
+  skos:definition "Werkproces waarin het dossier valt"@nl;
+  skos:scopeNote """Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd.
+Wordt overgeerft van dossiertype folder: moet ingericht worden"""@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/139>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/75> a skos:Concept;
+  skos:prefLabel "Dossiertype"@nl;
+  skos:definition """Classificatie brengt samenhang tussen records (ordening). Classificatie moet herleidbaar zijn tot activiteiten dan wel werkprocessen om die samenhang te kunnen duiden en om van daaruit records in hun onderlinge
+relatie te kunnen zoeken. Sluit bovendien goed aan bij belevingswereld van gebruiker."""@nl;
+  skos:scopeNote """Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd.
+Wordt overgeerft van dossiertype folder: moet ingericht worden"""@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/109>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/77> a skos:Concept;
+  skos:prefLabel "DossiertypeCodeBron"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/121>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/78> a skos:Concept;
+  skos:prefLabel "Resultaattype"@nl;
+  skos:scopeNote "Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/133>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/79> a skos:Concept;
+  skos:prefLabel "Site"@nl;
+  skos:definition "Site waarin het dossier geplaatst wordt."@nl;
+  skos:scopeNote "Onderdeel van de routering"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/134>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/80> a skos:Concept;
+  skos:prefLabel "Vindplaats"@nl;
+  skos:definition "Raadpleeglocatie van record"@nl;
+  skos:scopeNote "Indien buiten het DMS vullen met locatie bv bij een fysieke raadpleeglocatie: \" Gemeentearchief Den Haag, plank 4B\"' of  bij een virtuele raadpleeglocatie: \"https://open.overheid.nl/documenten/ecddce90-ff59-4ad2-b0ce-388253c26dfc/file\"'"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/141>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/81> a skos:Concept;
+  skos:prefLabel "Vindplaats type"@nl;
+  skos:definition "Fysieke of virtuele locatie van record"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/140>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/82> a skos:Concept;
+  skos:prefLabel "Extern systeem"@nl;
+  skos:definition "Extern systeem waarin het record een kenmerk heeft gekregen"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/123>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/83> a skos:Concept;
+  skos:prefLabel "Extern identificatiekenmerk"@nl;
+  skos:definition "Kenmerk, toegekend aan een record, buiten de huidige beheersomgeving"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/122>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/84> a skos:Concept;
+  skos:prefLabel "Taal"@nl;
+  skos:definition "Taal van een record in ISO 639-2B formaat"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/136>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/85> a skos:Concept;
+  skos:prefLabel "Velvolgdossier"@nl;
+  skos:definition "Element waarmee een relatie gelegd kan worden met andere records (op verschillende aggregatieniveaus) en met andere entiteiten"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/143>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/86> a skos:Concept;
+  skos:prefLabel "is vervolgdossier van"@nl;
+  skos:definition "Element waarmee een relatie gelegd kan worden met andere records (op verschillende aggregatieniveaus) en met andere entiteiten"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/128>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/87> a skos:Concept;
+  skos:prefLabel "Gerelateerd dossier"@nl;
+  skos:definition "Element waarmee een relatie gelegd kan worden met andere records (op verschillende aggregatieniveaus) en met andere entiteiten"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/124>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/88> a skos:Concept;
+  skos:prefLabel "Deeldossier"@nl;
+  skos:definition "Element waarmee een relatie gelegd kan worden met andere records (op verschillende aggregatieniveaus) en met andere entiteiten"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/118>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/89> a skos:Concept;
+  skos:prefLabel "is deeldossier van"@nl;
+  skos:definition "Element waarmee een relatie gelegd kan worden met andere records (op verschillende aggregatieniveaus) en met andere entiteiten"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/127>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/90> a skos:Concept;
+  skos:prefLabel "Vertrouwelijkheid"@nl;
+  skos:definition "'Indicatie van niveau van vertrouwelijkheid van de informatie (Record)."@nl;
+  skos:scopeNote """Kan evt geautomatiseerd worden indien er een functie komt om vertrouwelijk aan te geven.
+Domein moet evt aangepast worden"""@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/142>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/91> a skos:Concept;
+  skos:prefLabel "Gewijzigd door"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/126>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/92> a skos:Concept;
+  skos:prefLabel "Datum gewijzigd"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/117>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/93> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:definition "Dit kan een andere waarde betreffen dan cm:creator, indien cm:creator door een Service Account wordt ingevuld"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/111>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/94> a skos:Concept;
+  skos:prefLabel "Creatiedatum"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/115>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/95> a skos:Concept;
+  skos:prefLabel "Registratiedatum"@nl;
+  skos:definition "Datum van registratie binnen de organisatie. Dit kan een afwijkende datum zijn van cm:created indien een bestand eerder is geregistreerd binnen de organisatie"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/132>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/96> a skos:Concept;
+  skos:prefLabel "Bronapplicatie naam"@nl;
+  skos:definition "Eventgeschiedenis"@nl;
+  skos:scopeNote "kan gebruikt worden om informatieobjecten te identificeren die foutief zijn aangemaakt. Bv informatieobjecten die foutief zijn gemaakt vanuit 1 versie van de een bronapplicatie"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/112>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/97> a skos:Concept;
+  skos:prefLabel "Bronapplicatie versie"@nl;
+  skos:definition "Eventgeschiedenis"@nl;
+  skos:scopeNote "kan gebruikt worden om informatieobjecten te identificeren die foutief zijn aangemaakt. Bv informatieobjecten die foutief zijn gemaakt vanuit 1 versie van de een bronapplicatie"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/113>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/98> a skos:Concept;
+  skos:prefLabel "Datum aanmaak bronapplicatie"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/116>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/99> a skos:Concept;
+  skos:prefLabel "Status"@nl;
+  skos:definition "Status van het dossier"@nl;
+  skos:scopeNote "bv Open, Gesloten"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/135>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/100> a skos:Concept;
+  skos:prefLabel "Tags"@nl;
+  skos:definition "Trefwoorden"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/137>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/101> a skos:Concept;
+  skos:prefLabel "DossiertypeCode"@nl;
+  skos:definition "Functionele identificatie van het dossiertype. Dit kan hetzelfde zijn als Dossiertype OF een identificatie voor uitwisseling met andere applicaties."@nl;
+  skos:scopeNote "Dit kan afkomstig zijn uit het DMS of uit een externe bron zoals een bronapplicatie of ZTC"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/120>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/102> a skos:Concept;
+  skos:prefLabel "Titel"@nl;
+  skos:scopeNote "Vrije tekst met titel"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/138>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/103> a skos:Concept;
+  skos:prefLabel "Omschrijving"@nl;
+  skos:definition "Vrije tekst met nadere beschrijving"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/131>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/105> a skos:Concept;
+  skos:prefLabel "Object ID"@nl;
+  skos:definition "Technische ID in het DMS om een dossier uniek te kunnen identificeren."@nl;
+  skos:scopeNote "cmis:objectId is ook nodig voor het ophalen van de node en is onderdeel van de Raadpleeglocatie"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/130>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/106> a skos:Concept;
+  skos:prefLabel "Naam"@nl;
+  skos:definition "Beknopte formeelinhoudelijk beschrijving (titel) van het record"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/129>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/107> a skos:Concept;
+  skos:prefLabel "Gewijzigd door"@nl;
+  skos:definition "Dit kan een andere waarde betreffen dan cm:modifier, indien cm:modifier door een Service Account wordt ingevuld"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/125>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/108> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:narrower <https://knb.poolparty.biz/metadata/110>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/109> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/75>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/110> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/108>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/111> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/93>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/112> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/96>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/113> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/97>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/114> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/73>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/115> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/94>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/116> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/98>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/117> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/92>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/118> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/88>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/119> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/72>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/120> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/101>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/121> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/77>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/122> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/83>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/123> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/82>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/124> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/87>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/125> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/107>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/126> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/91>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/127> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/89>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/128> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/86>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/129> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/106>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/130> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/105>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/131> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/103>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/132> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/95>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/133> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/78>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/134> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/79>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/135> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/99>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/136> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/84>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/137> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/100>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/138> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/102>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/139> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/74>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/140> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/81>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/141> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/80>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/142> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/90>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .
+
+<https://knb.poolparty.biz/metadata/143> a skos:Concept;
+  skos:prefLabel "cardinality"@nl;
+  skos:broader <https://knb.poolparty.biz/metadata/85>;
+  skos:inScheme <https://knb.poolparty.biz/metadata/71>;
+  skos:topConceptOf <https://knb.poolparty.biz/metadata/71> .

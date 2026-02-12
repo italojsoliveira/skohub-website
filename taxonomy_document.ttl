@@ -1,0 +1,303 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://knb.poolparty.biz/document/1> a skos:ConceptScheme;
+  dct:title "document"@nl;
+  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
+  dct:created "2026-01-05T10:48:55.665Z"^^xsd:dateTime;
+  skos:hasTopConcept <https://knb.poolparty.biz/document/2>, <https://knb.poolparty.biz/document/3>,
+    <https://knb.poolparty.biz/document/4>, <https://knb.poolparty.biz/document/5>, <https://knb.poolparty.biz/document/6>,
+    <https://knb.poolparty.biz/document/7>, <https://knb.poolparty.biz/document/8>, <https://knb.poolparty.biz/document/9>,
+    <https://knb.poolparty.biz/document/10>, <https://knb.poolparty.biz/document/11>,
+    <https://knb.poolparty.biz/document/12>, <https://knb.poolparty.biz/document/13>,
+    <https://knb.poolparty.biz/document/14>, <https://knb.poolparty.biz/document/15>,
+    <https://knb.poolparty.biz/document/16>, <https://knb.poolparty.biz/document/17>,
+    <https://knb.poolparty.biz/document/18>, <https://knb.poolparty.biz/document/19>,
+    <https://knb.poolparty.biz/document/20>, <https://knb.poolparty.biz/document/21>,
+    <https://knb.poolparty.biz/document/22>, <https://knb.poolparty.biz/document/23>,
+    <https://knb.poolparty.biz/document/24>, <https://knb.poolparty.biz/document/25>,
+    <https://knb.poolparty.biz/document/26>, <https://knb.poolparty.biz/document/27>,
+    <https://knb.poolparty.biz/document/28>, <https://knb.poolparty.biz/document/29>,
+    <https://knb.poolparty.biz/document/30>, <https://knb.poolparty.biz/document/32>,
+    <https://knb.poolparty.biz/document/33>, <https://knb.poolparty.biz/document/34>,
+    <https://knb.poolparty.biz/document/35> ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> . # added by me
+
+<https://knb.poolparty.biz/document/2> a skos:Concept;
+  skos:prefLabel "Object type"@nl;
+  skos:definition "Bedoeld om records op verschillende hiërarchische niveaus (bijvoorbeeld: document, dossier, bestand) te kunnen groeperen. Door afspraken te maken tussen organisaties over te onderscheiden aggregatieniveaus kan informatie/records gemakkelijker uitgewisseld worden."@nl;
+  skos:scopeNote "Content type 'rdoc:document' met cm:document als base type"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/3> a skos:Concept;
+  skos:prefLabel "Documentidentificatie"@nl;
+  skos:definition "Functioneel ID in het DMS om een document uniek te kunnen identificeren."@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/4> a skos:Concept;
+  skos:prefLabel "Object ID"@nl;
+  skos:definition "Technisch ID in het DMS om een document uniek te kunnen identificeren."@nl;
+  skos:scopeNote "cmis:objectId is ook nodig voor het ophalen van de node en is onderdeel van de Raadpleeglocatie"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/5> a skos:Concept;
+  skos:prefLabel "Naam"@nl;
+  skos:definition "Beknopte formeelinhoudelijk beschrijving (titel) van het record"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/6> a skos:Concept;
+  skos:prefLabel "Documenttype"@nl;
+  skos:definition """Classificatie brengt samenhang tussen
+records (ordening). Classificatie moet herleidbaar
+zijn tot activiteiten dan wel werkprocessen
+om die samenhang te kunnen duiden
+en om van daaruit records in hun onderlinge
+relatie te kunnen zoeken. Sluit bovendien
+goed aan bij belevingswereld van gebruiker."""@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/7> a skos:Concept;
+  skos:prefLabel "Titel"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/8> a skos:Concept;
+  skos:prefLabel "Omschrijving"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/9> a skos:Concept;
+  skos:prefLabel "Vindplaats"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/10> a skos:Concept;
+  skos:prefLabel "Vindplaats type"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/11> a skos:Concept;
+  skos:prefLabel "Extern systeem"@nl;
+  skos:definition "Extern systeem waarin het record een kenmerk heeft gekregen"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/12> a skos:Concept;
+  skos:prefLabel "Extern identificatiekenmerk"@nl;
+  skos:definition "Kenmerk, toegekend aan een record, buiten de huidige beheersomgeving"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/13> a skos:Concept;
+  skos:prefLabel "Taal"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/14> a skos:Concept;
+  skos:prefLabel "Vertouwelijkheid"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/15> a skos:Concept;
+  skos:prefLabel "Vorm"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/16> a skos:Concept;
+  skos:prefLabel "Vervolgdocument"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/17> a skos:Concept;
+  skos:prefLabel "Is vervolgdocument van"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/18> a skos:Concept;
+  skos:prefLabel "Gerelateerd document"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/19> a skos:Concept;
+  skos:prefLabel "Is deeldocument van"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/20> a skos:Concept;
+  skos:prefLabel "Deeldocument"@nl;
+  skos:definition "Element waarmee een relatie gelegd kan worden met andere records (op verschillende aggregatieniveaus) en met andere entiteiten"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/21> a skos:Concept;
+  skos:prefLabel "Gewijzigd door"@nl;
+  skos:definition "Gebruiker die het document het laatst heeft gewijzigd in het DMS"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/22> a skos:Concept;
+  skos:prefLabel "Gewijzigd door"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/23> a skos:Concept;
+  skos:prefLabel "Datum gewijzigd"@nl;
+  skos:definition "Datum laatste wijziging van het document in het DMS"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/24> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:definition "Dit kan een andere waarde betreffen dan cm:creator, indien cm:creator door een Service Account wordt ingevuld"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/25> a skos:Concept;
+  skos:prefLabel "Creatiedatum"@nl;
+  skos:definition "Creatiedatum van het document in het DMS"@nl;
+  skos:scopeNote "Datum waarop het bestand is gecreeerd in het DMS"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/26> a skos:Concept;
+  skos:prefLabel "Registratiedatum"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/27> a skos:Concept;
+  skos:prefLabel "Bronapplicatie naam"@nl;
+  skos:definition "Bronapplicatie waarin het document ontstaan is"@nl;
+  skos:scopeNote "kan gebruikt worden om informatieobjecten te identificeren die foutief zijn aangemaakt. Bv informatieobjecten die foutief zijn gemaakt vanuit 1 versie van de een bronapplicatie"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/28> a skos:Concept;
+  skos:prefLabel "Bronapplicatie versie"@nl;
+  skos:definition "Versie van de bronapplicatie waarin het document ontstaan is"@nl;
+  skos:scopeNote "kan gebruikt worden om informatieobjecten te identificeren die foutief zijn aangemaakt. Bv informatieobjecten die foutief zijn gemaakt vanuit 1 versie van de een bronapplicatie"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/29> a skos:Concept;
+  skos:prefLabel "Datum aanmaak bronapplicatie"@nl;
+  skos:definition "Datum waarop het document is ontstaan in de bronapplicatie"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/30> a skos:Concept;
+  skos:prefLabel "Status"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/32> a skos:Concept;
+  skos:prefLabel "Auteur"@nl;
+  skos:definition "Auteur van het document"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/33> a skos:Concept;
+  skos:prefLabel "Tags"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/34> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:definition "Gebruiker die het document heeft aangemaakt in het DMS"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/35> a skos:Concept;
+  skos:prefLabel "Formaat"@nl;
+  skos:definition "Fysieke/technische aspecten van een record"@nl;
+  skos:scopeNote "Verplicht in digitale omgeving"@nl;
+  skos:narrower <https://knb.poolparty.biz/document/36>, <https://knb.poolparty.biz/document/37>,
+    <https://knb.poolparty.biz/document/38>, <https://knb.poolparty.biz/document/39>,
+    <https://knb.poolparty.biz/document/40>, <https://knb.poolparty.biz/document/41>,
+    <https://knb.poolparty.biz/document/42>, <https://knb.poolparty.biz/document/43>,
+    <https://knb.poolparty.biz/document/44>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/36> a skos:Concept;
+  skos:prefLabel "Mimetype"@nl;
+  skos:definition "Fysieke/technische aspecten van een record"@nl;
+  skos:scopeNote "Verplicht in digitale omgeving"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/37> a skos:Concept;
+  skos:prefLabel "Bestandnaam"@nl;
+  skos:definition "Bestandsnaam"@nl;
+  skos:scopeNote "Vaak gelijk aan de naam van de record"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/38> a skos:Concept;
+  skos:prefLabel "Grootte"@nl;
+  skos:definition "Ruimtebeslag op medium meestal uitgedrukt in bytes of een veelvoud ervan"@nl;
+  skos:scopeNote "Advies: zorg in de RMA dat deze bestandseigenschap raadpleegbaar is en blijft"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/39> a skos:Concept;
+  skos:prefLabel "Checksum Algoritme"@nl;
+  skos:definition "Aanduiding van algoritme gebruikt om de checksum te maken"@nl;
+  skos:scopeNote "Minimaal SHA-256"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/40> a skos:Concept;
+  skos:prefLabel "Checksum Waarde"@nl;
+  skos:definition "De waarde van de checksum"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/41> a skos:Concept;
+  skos:prefLabel "Checksum Datum"@nl;
+  skos:definition "Datum waarop de checksum is gemaakt"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/42> a skos:Concept;
+  skos:prefLabel "ContentStream"@nl;
+  skos:definition "Inhoud van het document"@nl;
+  skos:scopeNote """Contentstream van het bestand.
+URL van het bestand bestaat uit de UUID van het informatieobject en de versie van het bestand. Zonder versie te specificeren wordt de contentstream van de laatste (actieve) versie opgehaald"""@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/43> a skos:Concept;
+  skos:prefLabel "Versie"@nl;
+  skos:definition "Technisch versie van het document in het DMS systeem bestaande uit een Major en Minor versienummer"@nl;
+  skos:scopeNote "in combinatie met de UUID van het informatieobject is dit de unieke identificatie van het bestand"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
+
+<https://knb.poolparty.biz/document/44> a skos:Concept;
+  skos:prefLabel "Is Representatie van"@nl;
+  skos:definition "Verwijzing naar informatieobject waarvan het bestand een (deel van een) representatie is"@nl;
+  skos:broader <https://knb.poolparty.biz/document/35>;
+  skos:inScheme <https://knb.poolparty.biz/document/1>;
+  skos:topConceptOf <https://knb.poolparty.biz/document/1> .
