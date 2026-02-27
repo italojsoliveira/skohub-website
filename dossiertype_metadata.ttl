@@ -1,0 +1,323 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/dossiertype> a skos:ConceptScheme;
+  dct:title "dossiertype"@nl;
+  dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
+  dct:created "2026-02-27T13:57:46.814Z"^^xsd:dateTime;
+  skos:hasTopConcept <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>, <https://knb.poolparty.biz/dossiertypemetadata/Veldnaambron>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamdatatype>, <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamkardinaliteit>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamaspect> ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> . # added by me.
+
+<https://knb.poolparty.biz/dossiertypemetadata/Veldnaam> a skos:Concept;
+  skos:prefLabel "Veldnaam"@nl;
+  skos:narrower <https://knb.poolparty.biz/dossiertypemetadata/Object-type>, <https://knb.poolparty.biz/dossiertypemetadata/Object-ID>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Naam>, <https://knb.poolparty.biz/dossiertypemetadata/Categorie>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Werkproces>, <https://knb.poolparty.biz/dossiertypemetadata/Dossiertype>,
+    <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode>, <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Titel>, <https://knb.poolparty.biz/dossiertypemetadata/Omschrijving>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door>, <https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door>, <https://knb.poolparty.biz/dossiertypemetadata/Creatiedatum>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Tags>, <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Veldnaambron> a skos:Concept;
+  skos:prefLabel "Veldnaambron"@nl;
+  skos:narrower <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Veldnaamdatatype> a skos:Concept;
+  skos:prefLabel "Veldnaamdatatype"@nl;
+  skos:narrower <https://knb.poolparty.biz/dossiertypemetadata/String>, <https://knb.poolparty.biz/dossiertypemetadata/Date>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Category>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Veldnaamkardinaliteit> a skos:Concept;
+  skos:prefLabel "Veldnaamkardinaliteit"@nl;
+  skos:narrower <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>,
+    <https://knb.poolparty.biz/dossiertypemetadata/nul-too-veel>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/DMS> a skos:Concept;
+  skos:prefLabel "DMS"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaambron>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Object-type>, <https://knb.poolparty.biz/dossiertypemetadata/Object-ID>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Naam>, <https://knb.poolparty.biz/dossiertypemetadata/Categorie>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Werkproces>, <https://knb.poolparty.biz/dossiertypemetadata/Dossiertype>,
+    <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode>, <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Titel>, <https://knb.poolparty.biz/dossiertypemetadata/Omschrijving>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door>, <https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door>, <https://knb.poolparty.biz/dossiertypemetadata/Creatiedatum>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Tags>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie> a skos:Concept;
+  skos:prefLabel "Bronapplicatie"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaambron>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode>, <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Tags>, <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/String> a skos:Concept;
+  skos:prefLabel "String"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamdatatype>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Object-type>, <https://knb.poolparty.biz/dossiertypemetadata/Object-ID>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Naam>, <https://knb.poolparty.biz/dossiertypemetadata/Categorie>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Werkproces>, <https://knb.poolparty.biz/dossiertypemetadata/Dossiertype>,
+    <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode>, <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Titel>, <https://knb.poolparty.biz/dossiertypemetadata/Omschrijving>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door>, <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2>, <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Date> a skos:Concept;
+  skos:prefLabel "Date"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamdatatype>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd>, <https://knb.poolparty.biz/dossiertypemetadata/Creatiedatum>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Category> a skos:Concept;
+  skos:prefLabel "Category"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamdatatype>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Tags>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/een-tot-een> a skos:Concept;
+  skos:prefLabel "één-tot-één"@nl;
+  skos:altLabel "1..1"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamkardinaliteit>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Object-type>, <https://knb.poolparty.biz/dossiertypemetadata/Object-ID>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Naam>, <https://knb.poolparty.biz/dossiertypemetadata/Categorie>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Werkproces>, <https://knb.poolparty.biz/dossiertypemetadata/Dossiertype>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door>, <https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door>, <https://knb.poolparty.biz/dossiertypemetadata/Creatiedatum>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een> a skos:Concept;
+  skos:prefLabel "nul-tot-één"@nl;
+  skos:altLabel "0..1"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamkardinaliteit>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode>, <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Titel>, <https://knb.poolparty.biz/dossiertypemetadata/Omschrijving>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2>, <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/nul-too-veel> a skos:Concept;
+  skos:prefLabel "nul-too-veel"@nl;
+  skos:altLabel "0..*"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamkardinaliteit>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Tags>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Object-type> a skos:Concept;
+  skos:prefLabel "Object type"@nl;
+  skos:definition "Bedoeld om records op verschillende hiërarchische niveaus (bijvoorbeeld: document, dossier, bestand) te kunnen groeperen. Door afspraken te maken tussen organisaties over te onderscheiden aggregatieniveaus kan informatie/records gemakkelijker uitgewisseld worden."@nl;
+  skos:scopeNote "Content type 'rdoc:dossiertypefolder' met cm:folder als base type. Dit is op dit niveau gelijk aan 'Serie'"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Object-ID> a skos:Concept;
+  skos:prefLabel "Object ID"@nl;
+  skos:definition "Technische ID in het DMS om een dossier uniek te kunnen identificeren."@nl;
+  skos:scopeNote "cmis:objectId is ook nodig voor het ophalen van de node en is onderdeel van de Raadpleeglocatie"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Naam> a skos:Concept;
+  skos:prefLabel "Naam"@nl;
+  skos:definition "Beknopte formeelinhoudelijk beschrijving (titel) van het record"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Categorie> a skos:Concept;
+  skos:prefLabel "Categorie"@nl;
+  skos:definition "Categorie van het dossiertype"@nl;
+  skos:scopeNote "Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Werkproces> a skos:Concept;
+  skos:prefLabel "Werkproces"@nl;
+  skos:definition "Werkproces waarin het dossiertype valt. Vaak is dit ook een omschrijving van de (bedrijfs)activiteit"@nl;
+  skos:scopeNote "Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Dossiertype> a skos:Concept;
+  skos:prefLabel "Dossiertype"@nl;
+  skos:definition """Classificatie brengt samenhang tussen records (ordening). Classificatie moet herleidbaar zijn tot activiteiten dan wel werkprocessen om die samenhang te kunnen duiden en om van daaruit records in hun onderlinge
+relatie te kunnen zoeken. Sluit bovendien goed aan bij belevingswereld van gebruiker."""@nl;
+  skos:scopeNote "Categorie, werkproces, dossiertype en resultaattype worden in een classificatieschema vastgelegd"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode> a skos:Concept;
+  skos:prefLabel "DossiertypeCode"@nl;
+  skos:definition "Functionele identificatie van het dossiertype. Dit kan hetzelfde zijn als Dossiertype OF een identificatie voor uitwisseling met andere applicaties."@nl;
+  skos:scopeNote "Dit kan afkomstig zijn uit het DMS of uit een externe bron zoals een bronapplicatie of ZTC"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie>,
+    <https://knb.poolparty.biz/dossiertypemetadata/String>, <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>,
+    <https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron> a skos:Concept;
+  skos:prefLabel "DossiertypeCodeBron"@nl;
+  skos:definition "Alleen invullen indien dit uit een externe bronapplicatie komt. Indien leeg dan komt het dossiertype uit het DMS"@nl;
+  skos:scopeNote "Dit kan afkomstig zijn uit het DMS of uit een externe bron zoals een bronapplicatie of ZTC"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie>,
+    <https://knb.poolparty.biz/dossiertypemetadata/String>, <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>,
+    <https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Titel> a skos:Concept;
+  skos:prefLabel "Titel"@nl;
+  skos:definition "Vrije tekst met titel"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/titled>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Omschrijving> a skos:Concept;
+  skos:prefLabel "Omschrijving"@nl;
+  skos:definition "Vrije tekst met nadere beschrijving"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/titled>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door> a skos:Concept;
+  skos:prefLabel "Gewijzigd door"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd> a skos:Concept;
+  skos:prefLabel "Datum gewijzigd"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/Date>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:scopeNote "Dit kan evt een Service Account zijn"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Creatiedatum> a skos:Concept;
+  skos:prefLabel "Creatiedatum"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/Date>,
+    <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Tags> a skos:Concept;
+  skos:prefLabel "Tags"@nl;
+  skos:definition "Trefwoorden"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Category>, <https://knb.poolparty.biz/dossiertypemetadata/nul-too-veel>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2> a skos:Concept;
+  skos:prefLabel "Gewijzigd door"@nl;
+  skos:definition "Dit kan een andere waarde betreffen dan cm:modifier, indien cm:modifier door een Service Account wordt ingevuld"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/gebruikerAspect>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2> a skos:Concept;
+  skos:prefLabel "Aangemaakt door"@nl;
+  skos:definition "Dit kan een andere waarde betreffen dan cm:creator, indien cm:creator door een Service Account wordt ingevuld"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie>, <https://knb.poolparty.biz/dossiertypemetadata/String>,
+    <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/gebruikerAspect>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/Veldnaamaspect> a skos:Concept;
+  skos:prefLabel "Veldnaamaspect"@nl;
+  skos:narrower <https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect>, <https://knb.poolparty.biz/dossiertypemetadata/gebruikerAspect>,
+    <https://knb.poolparty.biz/dossiertypemetadata/titled>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect> a skos:Concept;
+  skos:prefLabel "dossierTypeAspect"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamaspect>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Categorie>, <https://knb.poolparty.biz/dossiertypemetadata/Werkproces>,
+    <https://knb.poolparty.biz/dossiertypemetadata/Dossiertype>, <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode>,
+    <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/gebruikerAspect> a skos:Concept;
+  skos:prefLabel "gebruikerAspect"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamaspect>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2>, <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
+
+<https://knb.poolparty.biz/dossiertypemetadata/titled> a skos:Concept;
+  skos:prefLabel "titled"@nl;
+  skos:broader <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamaspect>;
+  skos:related <https://knb.poolparty.biz/dossiertypemetadata/Titel>, <https://knb.poolparty.biz/dossiertypemetadata/Omschrijving>;
+  skos:inScheme <https://knb.poolparty.biz/dossiertypemetadata/dossiertype>;
+  skos:topConceptOf <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> .
