@@ -9,27 +9,13 @@
 @prefix fn: <http://www.w3.org/2005/xpath-functions#> .
 
 <https://knb.poolparty.biz/dossiertypemetadata/dossiertype> a skos:ConceptScheme;
-  dct:title "dossiertype2"@nl; # my addition
+  dct:title "dossiertype3"@nl;
   dct:creator <https://knb.poolparty.biz/user/9cbe93b4-c9be-4102-93aa-1f7600ee191a>;
   dct:created "2026-02-27T13:57:46.814Z"^^xsd:dateTime;
   skos:hasTopConcept <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam>, <https://knb.poolparty.biz/dossiertypemetadata/Veldnaambron>,
     <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamdatatype>, <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamkardinaliteit>,
-    <https://knb.poolparty.biz/dossiertypemetadata/DMS>, <https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie>,
-    <https://knb.poolparty.biz/dossiertypemetadata/String>, <https://knb.poolparty.biz/dossiertypemetadata/Date>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Category>, <https://knb.poolparty.biz/dossiertypemetadata/een-tot-een>,
-    <https://knb.poolparty.biz/dossiertypemetadata/nul-tot-een>, <https://knb.poolparty.biz/dossiertypemetadata/nul-too-veel>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Object-type>, <https://knb.poolparty.biz/dossiertypemetadata/Object-ID>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Naam>, <https://knb.poolparty.biz/dossiertypemetadata/Categorie>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Werkproces>, <https://knb.poolparty.biz/dossiertypemetadata/Dossiertype>,
-    <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode>, <https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Titel>, <https://knb.poolparty.biz/dossiertypemetadata/Omschrijving>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door>, <https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door>, <https://knb.poolparty.biz/dossiertypemetadata/Creatiedatum>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Tags>, <https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2>,
-    <https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2>, <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamaspect>,
-    <https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect>, <https://knb.poolparty.biz/dossiertypemetadata/gebruikerAspect>,
-    <https://knb.poolparty.biz/dossiertypemetadata/titled> ;
-        dct:license <https://creativecommons.org/publicdomain/zero/1.0/> . # added by me.
+    <https://knb.poolparty.biz/dossiertypemetadata/Veldnaamaspect> ;
+        dct:license <https://creativecommons.org/publicdomain/zero/1.0/> . # added by me..
 
 <https://knb.poolparty.biz/dossiertypemetadata/Veldnaam> a skos:Concept;
   skos:prefLabel "Veldnaam"@nl;
