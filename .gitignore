@@ -1,0 +1,28 @@
+# System files
+**/.DS_Store
+**/.vscode
+
+# Visual Paradigm files
+**/*.vpp.bak*
+**/*.vpp.vbak*
+**/*.lck
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv
+env
+
+# VIM
+# Persistent undo
+[._]*.un~
+
+# Protégé
+catalog-v001.xml
