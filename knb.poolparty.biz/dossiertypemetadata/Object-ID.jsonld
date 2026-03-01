@@ -51,14 +51,6 @@
       "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype",
-      "title": {
-        "nl": "dossiertype"
-      }
-    }
-  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",

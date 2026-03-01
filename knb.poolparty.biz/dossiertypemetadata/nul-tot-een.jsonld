@@ -17,6 +17,12 @@
   },
   "related": [
     {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode",
       "prefLabel": {
         "nl": "DossiertypeCode"
@@ -29,6 +35,12 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2",
+      "prefLabel": {
+        "nl": "Gewijzigd door"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/Titel",
       "prefLabel": {
         "nl": "Titel"
@@ -38,18 +50,6 @@
       "id": "https://knb.poolparty.biz/dossiertypemetadata/Omschrijving",
       "prefLabel": {
         "nl": "Omschrijving"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/Gewijzigd-door_2",
-      "prefLabel": {
-        "nl": "Gewijzigd door"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/Aangemaakt-door_2",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
       }
     }
   ],
@@ -64,14 +64,6 @@
   "inSchemeAll": [
     {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype",
-      "title": {
-        "nl": "dossiertype"
-      }
     }
   ],
   "@context": {

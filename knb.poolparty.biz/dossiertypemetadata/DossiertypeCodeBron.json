@@ -26,15 +26,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie",
-      "prefLabel": {
-        "nl": "Bronapplicatie"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/String",
       "prefLabel": {
         "nl": "String"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie",
+      "prefLabel": {
+        "nl": "Bronapplicatie"
       }
     },
     {
@@ -61,14 +61,6 @@
   "inSchemeAll": [
     {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype",
-      "title": {
-        "nl": "dossiertype"
-      }
     }
   ],
   "@context": {

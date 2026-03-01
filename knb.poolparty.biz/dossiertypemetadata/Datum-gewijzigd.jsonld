@@ -18,15 +18,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/Date",
-      "prefLabel": {
-        "nl": "Date"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/een-tot-een",
       "prefLabel": {
         "nl": "één-tot-één"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Date",
+      "prefLabel": {
+        "nl": "Date"
       }
     }
   ],
@@ -41,14 +41,6 @@
   "inSchemeAll": [
     {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype",
-      "title": {
-        "nl": "dossiertype"
-      }
     }
   ],
   "@context": {

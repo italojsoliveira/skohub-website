@@ -12,15 +12,15 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd",
-      "prefLabel": {
-        "nl": "Datum gewijzigd"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/Creatiedatum",
       "prefLabel": {
         "nl": "Creatiedatum"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Datum-gewijzigd",
+      "prefLabel": {
+        "nl": "Datum gewijzigd"
       }
     }
   ],
@@ -35,14 +35,6 @@
   "inSchemeAll": [
     {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/dossiertype",
-      "title": {
-        "nl": "dossiertype"
-      }
     }
   ],
   "@context": {

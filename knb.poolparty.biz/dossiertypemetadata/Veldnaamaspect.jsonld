@@ -6,6 +6,12 @@
   },
   "narrower": [
     {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/gebruikerAspect",
+      "prefLabel": {
+        "nl": "gebruikerAspect"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect",
       "prefLabel": {
         "nl": "dossierTypeAspect"
@@ -15,12 +21,6 @@
       "id": "https://knb.poolparty.biz/dossiertypemetadata/titled",
       "prefLabel": {
         "nl": "titled"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/gebruikerAspect",
-      "prefLabel": {
-        "nl": "gebruikerAspect"
       }
     }
   ],

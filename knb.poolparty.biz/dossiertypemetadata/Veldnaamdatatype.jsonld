@@ -12,15 +12,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/Date",
-      "prefLabel": {
-        "nl": "Date"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/Category",
       "prefLabel": {
         "nl": "Category"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Date",
+      "prefLabel": {
+        "nl": "Date"
       }
     }
   ],
