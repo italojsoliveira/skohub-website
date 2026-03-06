@@ -21,21 +21,27 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/nul-tot-een",
-      "prefLabel": {
-        "nl": "nul-tot-één"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Date",
       "prefLabel": {
         "nl": "Date"
       }
     },
     {
+      "id": "https://knb.poolparty.biz/documentmetadata/nul-tot-een",
+      "prefLabel": {
+        "nl": "nul-tot-één"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/documentmetadata/registratieAspect",
       "prefLabel": {
         "nl": "registratieAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Tijd",
+      "prefLabel": {
+        "nl": "Tijd"
       }
     }
   ],

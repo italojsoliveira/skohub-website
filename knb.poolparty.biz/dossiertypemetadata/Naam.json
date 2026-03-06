@@ -31,6 +31,12 @@
       "prefLabel": {
         "nl": "één-tot-één"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Naam_2",
+      "prefLabel": {
+        "nl": "Naam"
+      }
     }
   ],
   "inScheme": [

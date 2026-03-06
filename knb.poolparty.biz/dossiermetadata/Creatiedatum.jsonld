@@ -18,15 +18,21 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Date",
+      "prefLabel": {
+        "nl": "Date"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiermetadata/een-tot-een",
       "prefLabel": {
         "nl": "één-tot-één"
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Date",
+      "id": "https://knb.poolparty.biz/dossiermetadata/Tijd",
       "prefLabel": {
-        "nl": "Date"
+        "nl": "Tijd"
       }
     }
   ],

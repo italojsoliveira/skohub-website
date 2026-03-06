@@ -17,48 +17,6 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door_2",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Vervolgdocument",
-      "prefLabel": {
-        "nl": "Vervolgdocument"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Is-vervolgdocument-van",
-      "prefLabel": {
-        "nl": "Is vervolgdocument van"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Gerelateerd-document",
-      "prefLabel": {
-        "nl": "Gerelateerd document"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Is-deeldocument-van",
-      "prefLabel": {
-        "nl": "Is deeldocument van"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Deeldocument",
-      "prefLabel": {
-        "nl": "Deeldocument"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Auteur",
-      "prefLabel": {
-        "nl": "Auteur"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Documenttype",
       "prefLabel": {
         "nl": "Documenttype"
@@ -119,9 +77,45 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/documentmetadata/Vervolgdocument",
+      "prefLabel": {
+        "nl": "Vervolgdocument"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Is-vervolgdocument-van",
+      "prefLabel": {
+        "nl": "Is vervolgdocument van"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Gerelateerd-document",
+      "prefLabel": {
+        "nl": "Gerelateerd document"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Is-deeldocument-van",
+      "prefLabel": {
+        "nl": "Is deeldocument van"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Deeldocument",
+      "prefLabel": {
+        "nl": "Deeldocument"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/documentmetadata/Gewijzigd-door_2",
       "prefLabel": {
         "nl": "Gewijzigd door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door_2",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
       }
     },
     {
@@ -161,9 +155,45 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Tags",
+      "id": "https://knb.poolparty.biz/documentmetadata/Auteur",
       "prefLabel": {
-        "nl": "Tags"
+        "nl": "Auteur"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Bestandsnaam",
+      "prefLabel": {
+        "nl": "Bestandsnaam"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Checksum-Algoritme",
+      "prefLabel": {
+        "nl": "Checksum Algoritme"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Checksum-Waarde",
+      "prefLabel": {
+        "nl": "Checksum Waarde"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Checksum-Datum",
+      "prefLabel": {
+        "nl": "Checksum Datum"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/ContentStream_2",
+      "prefLabel": {
+        "nl": "ContentStream"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Is-Representatie-van",
+      "prefLabel": {
+        "nl": "Is Representatie van"
       }
     }
   ],

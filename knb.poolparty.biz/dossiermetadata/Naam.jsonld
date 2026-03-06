@@ -15,6 +15,12 @@
   },
   "related": [
     {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Bronapplicatie",
+      "prefLabel": {
+        "nl": "Bronapplicatie"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiermetadata/String",
       "prefLabel": {
         "nl": "String"
@@ -27,9 +33,9 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Bronapplicatie",
+      "id": "https://knb.poolparty.biz/dossiermetadata/Naam_2",
       "prefLabel": {
-        "nl": "Bronapplicatie"
+        "nl": "Naam"
       }
     }
   ],

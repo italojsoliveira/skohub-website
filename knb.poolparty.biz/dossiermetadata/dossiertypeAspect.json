@@ -12,15 +12,9 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Categorie",
+      "id": "https://knb.poolparty.biz/dossiermetadata/Werkprocess",
       "prefLabel": {
-        "nl": "Categorie"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Dossiertype",
-      "prefLabel": {
-        "nl": "Dossiertype"
+        "nl": "Werkprocess"
       }
     },
     {
@@ -36,9 +30,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Werkprocess",
+      "id": "https://knb.poolparty.biz/dossiermetadata/Categorie",
       "prefLabel": {
-        "nl": "Werkprocess"
+        "nl": "Categorie"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Dossiertype",
+      "prefLabel": {
+        "nl": "Dossiertype"
       }
     }
   ],

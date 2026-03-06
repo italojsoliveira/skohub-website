@@ -33,6 +33,18 @@
       "prefLabel": {
         "nl": "één-tot-één"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Archiefvormer",
+      "prefLabel": {
+        "nl": "Archiefvormer"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Verantwoordelijke-actor",
+      "prefLabel": {
+        "nl": "Verantwoordelijke actor"
+      }
     }
   ],
   "inScheme": [

@@ -20,15 +20,15 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/String",
-      "prefLabel": {
-        "nl": "String"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Bronapplicatie",
       "prefLabel": {
         "nl": "Bronapplicatie"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/String",
+      "prefLabel": {
+        "nl": "String"
       }
     },
     {
@@ -41,6 +41,12 @@
       "id": "https://knb.poolparty.biz/documentmetadata/vertrouwelijkAspect",
       "prefLabel": {
         "nl": "vertrouwelijkAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/beperkingGebruik",
+      "prefLabel": {
+        "nl": "beperkingGebruik"
       }
     }
   ],

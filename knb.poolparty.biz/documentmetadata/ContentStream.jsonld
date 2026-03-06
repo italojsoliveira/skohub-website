@@ -10,6 +10,14 @@
       "nl": "VeldnaamDatatype"
     }
   },
+  "related": [
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/ContentStream_2",
+      "prefLabel": {
+        "nl": "ContentStream"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://knb.poolparty.biz/documentmetadata/document",

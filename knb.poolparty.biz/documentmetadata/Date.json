@@ -12,9 +12,9 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Registratiedatum_2",
+      "id": "https://knb.poolparty.biz/documentmetadata/Datum-gewijzigd",
       "prefLabel": {
-        "nl": "Registratiedatum"
+        "nl": "Datum gewijzigd"
       }
     },
     {
@@ -24,9 +24,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Datum-gewijzigd",
+      "id": "https://knb.poolparty.biz/documentmetadata/Registratiedatum_2",
       "prefLabel": {
-        "nl": "Datum gewijzigd"
+        "nl": "Registratiedatum"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Checksum-Datum",
+      "prefLabel": {
+        "nl": "Checksum Datum"
       }
     }
   ],

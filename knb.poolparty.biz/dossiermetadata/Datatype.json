@@ -12,6 +12,12 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Date",
+      "prefLabel": {
+        "nl": "Date"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiermetadata/Association",
       "prefLabel": {
         "nl": "Association"
@@ -21,12 +27,6 @@
       "id": "https://knb.poolparty.biz/dossiermetadata/Category",
       "prefLabel": {
         "nl": "Category"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Date",
-      "prefLabel": {
-        "nl": "Date"
       }
     }
   ],

@@ -6,15 +6,9 @@
   },
   "narrower": [
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/gebruikerAspect",
+      "id": "https://knb.poolparty.biz/dossiermetadata/dossierAspect",
       "prefLabel": {
-        "nl": "gebruikerAspect"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/bronapplicatieAspect",
-      "prefLabel": {
-        "nl": "bronapplicatieAspect"
+        "nl": "dossierAspect"
       }
     },
     {
@@ -24,21 +18,9 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/dossierRelatieAspect",
+      "id": "https://knb.poolparty.biz/dossiermetadata/siteAspect",
       "prefLabel": {
-        "nl": "dossierRelatieAspect"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/dossierAspect",
-      "prefLabel": {
-        "nl": "dossierAspect"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/externSysteemAspect",
-      "prefLabel": {
-        "nl": "externSysteemAspect"
+        "nl": "siteAspect"
       }
     },
     {
@@ -48,15 +30,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/registratieAspect",
+      "id": "https://knb.poolparty.biz/dossiermetadata/plaatsAspect",
       "prefLabel": {
-        "nl": "registratieAspect"
+        "nl": "plaatsAspect"
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/siteAspect",
+      "id": "https://knb.poolparty.biz/dossiermetadata/externSysteemAspect",
       "prefLabel": {
-        "nl": "siteAspect"
+        "nl": "externSysteemAspect"
       }
     },
     {
@@ -66,15 +48,33 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/plaatsAspect",
+      "id": "https://knb.poolparty.biz/dossiermetadata/dossierRelatieAspect",
       "prefLabel": {
-        "nl": "plaatsAspect"
+        "nl": "dossierRelatieAspect"
       }
     },
     {
       "id": "https://knb.poolparty.biz/dossiermetadata/vertrouwelijkAspect",
       "prefLabel": {
         "nl": "vertrouwelijkAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/gebruikerAspect",
+      "prefLabel": {
+        "nl": "gebruikerAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/registratieAspect",
+      "prefLabel": {
+        "nl": "registratieAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/bronapplicatieAspect",
+      "prefLabel": {
+        "nl": "bronapplicatieAspect"
       }
     }
   ],

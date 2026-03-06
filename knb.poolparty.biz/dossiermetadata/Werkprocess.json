@@ -42,6 +42,12 @@
       "prefLabel": {
         "nl": "dossiertypeAspect"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Classificatie",
+      "prefLabel": {
+        "nl": "Classificatie"
+      }
     }
   ],
   "inScheme": [

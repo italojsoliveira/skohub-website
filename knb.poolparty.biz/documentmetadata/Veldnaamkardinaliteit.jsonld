@@ -6,15 +6,15 @@
   },
   "narrower": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/een-tot-een",
-      "prefLabel": {
-        "nl": "één-tot-één"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/nul-tot-een",
       "prefLabel": {
         "nl": "nul-tot-één"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/een-tot-een",
+      "prefLabel": {
+        "nl": "één-tot-één"
       }
     },
     {

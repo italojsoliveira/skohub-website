@@ -33,6 +33,12 @@
       "prefLabel": {
         "nl": "één-tot-één"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Archiefvormer",
+      "prefLabel": {
+        "nl": "Archiefvormer"
+      }
     }
   ],
   "inScheme": [

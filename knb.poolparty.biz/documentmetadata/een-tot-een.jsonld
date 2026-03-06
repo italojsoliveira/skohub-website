@@ -17,12 +17,6 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Object-type",
       "prefLabel": {
         "nl": "Object type"
@@ -35,21 +29,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Naam",
-      "prefLabel": {
-        "nl": "Naam"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Creatiedatum",
-      "prefLabel": {
-        "nl": "Creatiedatum"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Object-ID",
       "prefLabel": {
         "nl": "Object ID"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Naam",
+      "prefLabel": {
+        "nl": "Naam"
       }
     },
     {
@@ -62,6 +50,36 @@
       "id": "https://knb.poolparty.biz/documentmetadata/Datum-gewijzigd",
       "prefLabel": {
         "nl": "Datum gewijzigd"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Creatiedatum",
+      "prefLabel": {
+        "nl": "Creatiedatum"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Mimetype",
+      "prefLabel": {
+        "nl": "Mimetype"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Grootte",
+      "prefLabel": {
+        "nl": "Grootte"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Versie",
+      "prefLabel": {
+        "nl": "Versie"
       }
     }
   ],

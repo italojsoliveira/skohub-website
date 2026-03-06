@@ -6,6 +6,12 @@
   },
   "narrower": [
     {
+      "id": "https://knb.poolparty.biz/dossiermetadata/nul-tot-veel",
+      "prefLabel": {
+        "nl": "nul-tot-veel"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiermetadata/een-tot-een",
       "prefLabel": {
         "nl": "één-tot-één"
@@ -15,12 +21,6 @@
       "id": "https://knb.poolparty.biz/dossiermetadata/nul-tot-een",
       "prefLabel": {
         "nl": "nul-tot-één"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/nul-tot-veel",
-      "prefLabel": {
-        "nl": "nul-tot-veel"
       }
     }
   ],

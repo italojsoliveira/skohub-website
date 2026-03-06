@@ -26,15 +26,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/String",
-      "prefLabel": {
-        "nl": "String"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/Bronapplicatie",
       "prefLabel": {
         "nl": "Bronapplicatie"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/String",
+      "prefLabel": {
+        "nl": "String"
       }
     },
     {
@@ -47,6 +47,12 @@
       "id": "https://knb.poolparty.biz/dossiertypemetadata/dossierTypeAspect",
       "prefLabel": {
         "nl": "dossierTypeAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/IdentificatieBron",
+      "prefLabel": {
+        "nl": "IdentificatieBron"
       }
     }
   ],

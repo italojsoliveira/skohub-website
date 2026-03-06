@@ -12,27 +12,9 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Auteur",
-      "prefLabel": {
-        "nl": "Auteur"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Documentidentificatie",
       "prefLabel": {
         "nl": "Documentidentificatie"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Creatiedatum",
-      "prefLabel": {
-        "nl": "Creatiedatum"
       }
     },
     {
@@ -54,9 +36,45 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Creatiedatum",
+      "prefLabel": {
+        "nl": "Creatiedatum"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Auteur",
+      "prefLabel": {
+        "nl": "Auteur"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/documentmetadata/Tags",
       "prefLabel": {
         "nl": "Tags"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Mimetype",
+      "prefLabel": {
+        "nl": "Mimetype"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Grootte",
+      "prefLabel": {
+        "nl": "Grootte"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Versie",
+      "prefLabel": {
+        "nl": "Versie"
       }
     }
   ],

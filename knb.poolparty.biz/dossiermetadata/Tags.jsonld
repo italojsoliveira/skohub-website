@@ -31,6 +31,12 @@
       "prefLabel": {
         "nl": "nul-tot-veel"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Trefwoord",
+      "prefLabel": {
+        "nl": "Trefwoord"
+      }
     }
   ],
   "inScheme": [

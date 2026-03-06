@@ -12,18 +12,6 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode",
-      "prefLabel": {
-        "nl": "DossiertypeCode"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron",
-      "prefLabel": {
-        "nl": "DossiertypeCodeBron"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiertypemetadata/Categorie",
       "prefLabel": {
         "nl": "Categorie"
@@ -39,6 +27,18 @@
       "id": "https://knb.poolparty.biz/dossiertypemetadata/Dossiertype",
       "prefLabel": {
         "nl": "Dossiertype"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCode",
+      "prefLabel": {
+        "nl": "DossiertypeCode"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/DossiertypeCodeBron",
+      "prefLabel": {
+        "nl": "DossiertypeCodeBron"
       }
     }
   ],

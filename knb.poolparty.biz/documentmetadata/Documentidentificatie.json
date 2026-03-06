@@ -21,6 +21,12 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/documentmetadata/Bronapplicatie",
+      "prefLabel": {
+        "nl": "Bronapplicatie"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/documentmetadata/String",
       "prefLabel": {
         "nl": "String"
@@ -33,15 +39,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Bronapplicatie",
-      "prefLabel": {
-        "nl": "Bronapplicatie"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/documentAspect",
       "prefLabel": {
         "nl": "documentAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Identificatiekenmerk",
+      "prefLabel": {
+        "nl": "Identificatiekenmerk"
       }
     }
   ],

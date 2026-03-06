@@ -37,6 +37,12 @@
       "prefLabel": {
         "nl": "titled"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Omschrijving_2",
+      "prefLabel": {
+        "nl": "Omschrijving"
+      }
     }
   ],
   "inScheme": [

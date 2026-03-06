@@ -12,21 +12,39 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door_2",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiermetadata/Dossieridentificatie",
       "prefLabel": {
         "nl": "Dossieridentificatie"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Werkprocess",
+      "prefLabel": {
+        "nl": "Werkprocess"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCode",
+      "prefLabel": {
+        "nl": "DossiertypeCode"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCodeBron",
+      "prefLabel": {
+        "nl": "DossiertypeCodeBron"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Gewijzigd-door",
+      "prefLabel": {
+        "nl": "Gewijzigd door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
       }
     },
     {
@@ -51,18 +69,6 @@
       "id": "https://knb.poolparty.biz/dossiermetadata/Dossiertype",
       "prefLabel": {
         "nl": "Dossiertype"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCode",
-      "prefLabel": {
-        "nl": "DossiertypeCode"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCodeBron",
-      "prefLabel": {
-        "nl": "DossiertypeCodeBron"
       }
     },
     {
@@ -132,6 +138,12 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door_2",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiermetadata/Bronapplicatie-naam",
       "prefLabel": {
         "nl": "Bronapplicatie naam"
@@ -156,15 +168,9 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Werkprocess",
+      "id": "https://knb.poolparty.biz/dossiermetadata/Object-type",
       "prefLabel": {
-        "nl": "Werkprocess"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Gewijzigd-door",
-      "prefLabel": {
-        "nl": "Gewijzigd door"
+        "nl": "Object type"
       }
     }
   ],

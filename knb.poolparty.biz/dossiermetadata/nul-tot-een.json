@@ -18,12 +18,6 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door_2",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCode",
       "prefLabel": {
         "nl": "DossiertypeCode"
@@ -93,6 +87,12 @@
       "id": "https://knb.poolparty.biz/dossiermetadata/Gewijzigd-door_2",
       "prefLabel": {
         "nl": "Gewijzigd door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door_2",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
       }
     },
     {

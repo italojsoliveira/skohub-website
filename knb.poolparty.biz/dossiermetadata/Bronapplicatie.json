@@ -12,45 +12,21 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door_2",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Vervolgdossier",
-      "prefLabel": {
-        "nl": "Vervolgdossier"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Is-vervolgdossier-van",
-      "prefLabel": {
-        "nl": "Is vervolgdossier van"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Gerelateerd-dossier",
-      "prefLabel": {
-        "nl": "Gerelateerd dossier"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Deeldossier",
-      "prefLabel": {
-        "nl": "Deeldossier"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Is-deeldossier-van",
-      "prefLabel": {
-        "nl": "Is deeldossier van"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/dossiermetadata/Dossieridentificatie",
       "prefLabel": {
         "nl": "Dossieridentificatie"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCode",
+      "prefLabel": {
+        "nl": "DossiertypeCode"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCodeBron",
+      "prefLabel": {
+        "nl": "DossiertypeCodeBron"
       }
     },
     {
@@ -75,18 +51,6 @@
       "id": "https://knb.poolparty.biz/dossiermetadata/Dossiertype",
       "prefLabel": {
         "nl": "Dossiertype"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCode",
-      "prefLabel": {
-        "nl": "DossiertypeCode"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/dossiermetadata/DossiertypeCodeBron",
-      "prefLabel": {
-        "nl": "DossiertypeCodeBron"
       }
     },
     {
@@ -144,6 +108,36 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Vervolgdossier",
+      "prefLabel": {
+        "nl": "Vervolgdossier"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Is-vervolgdossier-van",
+      "prefLabel": {
+        "nl": "Is vervolgdossier van"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Gerelateerd-dossier",
+      "prefLabel": {
+        "nl": "Gerelateerd dossier"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Deeldossier",
+      "prefLabel": {
+        "nl": "Deeldossier"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Is-deeldossier-van",
+      "prefLabel": {
+        "nl": "Is deeldossier van"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/dossiermetadata/Vertrouwelijkheid",
       "prefLabel": {
         "nl": "Vertrouwelijkheid"
@@ -153,6 +147,12 @@
       "id": "https://knb.poolparty.biz/dossiermetadata/Gewijzigd-door_2",
       "prefLabel": {
         "nl": "Gewijzigd door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Aangemaakt-door_2",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
       }
     },
     {
@@ -189,6 +189,12 @@
       "id": "https://knb.poolparty.biz/dossiermetadata/Tags",
       "prefLabel": {
         "nl": "Tags"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiermetadata/Object-type",
+      "prefLabel": {
+        "nl": "Object type"
       }
     }
   ],

@@ -12,24 +12,6 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door_2",
-      "prefLabel": {
-        "nl": "Aangemaakt door"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Auteur",
-      "prefLabel": {
-        "nl": "Auteur"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Object-type",
       "prefLabel": {
         "nl": "Object type"
@@ -39,6 +21,12 @@
       "id": "https://knb.poolparty.biz/documentmetadata/Documentidentificatie",
       "prefLabel": {
         "nl": "Documentidentificatie"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Object-ID",
+      "prefLabel": {
+        "nl": "Object ID"
       }
     },
     {
@@ -108,9 +96,27 @@
       }
     },
     {
+      "id": "https://knb.poolparty.biz/documentmetadata/Gewijzigd-door",
+      "prefLabel": {
+        "nl": "Gewijzigd door"
+      }
+    },
+    {
       "id": "https://knb.poolparty.biz/documentmetadata/Gewijzigd-door_2",
       "prefLabel": {
         "nl": "Gewijzigd door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Aangemaakt-door_2",
+      "prefLabel": {
+        "nl": "Aangemaakt door"
       }
     },
     {
@@ -144,21 +150,57 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/Object-ID",
+      "id": "https://knb.poolparty.biz/documentmetadata/Auteur",
       "prefLabel": {
-        "nl": "Object ID"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/Gewijzigd-door",
-      "prefLabel": {
-        "nl": "Gewijzigd door"
+        "nl": "Auteur"
       }
     },
     {
       "id": "https://knb.poolparty.biz/documentmetadata/Tags",
       "prefLabel": {
         "nl": "Tags"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Mimetype",
+      "prefLabel": {
+        "nl": "Mimetype"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Bestandsnaam",
+      "prefLabel": {
+        "nl": "Bestandsnaam"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Grootte",
+      "prefLabel": {
+        "nl": "Grootte"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Checksum-Algoritme",
+      "prefLabel": {
+        "nl": "Checksum Algoritme"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Checksum-Waarde",
+      "prefLabel": {
+        "nl": "Checksum Waarde"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Versie",
+      "prefLabel": {
+        "nl": "Versie"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Is-Representatie-van",
+      "prefLabel": {
+        "nl": "Is Representatie van"
       }
     }
   ],

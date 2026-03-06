@@ -37,6 +37,12 @@
       "prefLabel": {
         "nl": "author"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/Verantwoordelijke-actor",
+      "prefLabel": {
+        "nl": "Verantwoordelijke actor"
+      }
     }
   ],
   "inScheme": [

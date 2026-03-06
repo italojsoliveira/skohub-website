@@ -6,39 +6,9 @@
   },
   "narrower": [
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/gebruikerAspect",
-      "prefLabel": {
-        "nl": "gebruikerAspect"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/author",
-      "prefLabel": {
-        "nl": "author"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/bronapplicatieAspect",
-      "prefLabel": {
-        "nl": "bronapplicatieAspect"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/documentRelatieAspect",
-      "prefLabel": {
-        "nl": "documentRelatieAspect"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/documentAspect",
       "prefLabel": {
         "nl": "documentAspect"
-      }
-    },
-    {
-      "id": "https://knb.poolparty.biz/documentmetadata/externSysteemAspect",
-      "prefLabel": {
-        "nl": "externSysteemAspect"
       }
     },
     {
@@ -48,9 +18,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/registratieAspect",
+      "id": "https://knb.poolparty.biz/documentmetadata/plaatsAspect",
       "prefLabel": {
-        "nl": "registratieAspect"
+        "nl": "plaatsAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/externSysteemAspect",
+      "prefLabel": {
+        "nl": "externSysteemAspect"
       }
     },
     {
@@ -60,15 +36,45 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/plaatsAspect",
-      "prefLabel": {
-        "nl": "plaatsAspect"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/vertrouwelijkAspect",
       "prefLabel": {
         "nl": "vertrouwelijkAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/documentRelatieAspect",
+      "prefLabel": {
+        "nl": "documentRelatieAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/gebruikerAspect",
+      "prefLabel": {
+        "nl": "gebruikerAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/registratieAspect",
+      "prefLabel": {
+        "nl": "registratieAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/bronapplicatieAspect",
+      "prefLabel": {
+        "nl": "bronapplicatieAspect"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/author",
+      "prefLabel": {
+        "nl": "author"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/isRepresentatieVanAspect",
+      "prefLabel": {
+        "nl": "isRepresentatieVanAspect"
       }
     }
   ],

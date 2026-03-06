@@ -21,15 +21,15 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/documentmetadata/nul-tot-een",
-      "prefLabel": {
-        "nl": "nul-tot-één"
-      }
-    },
-    {
       "id": "https://knb.poolparty.biz/documentmetadata/Association",
       "prefLabel": {
         "nl": "Association"
+      }
+    },
+    {
+      "id": "https://knb.poolparty.biz/documentmetadata/nul-tot-een",
+      "prefLabel": {
+        "nl": "nul-tot-één"
       }
     },
     {

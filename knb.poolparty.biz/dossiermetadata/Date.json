@@ -12,9 +12,9 @@
   },
   "related": [
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Registratiedatum",
+      "id": "https://knb.poolparty.biz/dossiermetadata/Datum-gewijzigd",
       "prefLabel": {
-        "nl": "Registratiedatum"
+        "nl": "Datum gewijzigd"
       }
     },
     {
@@ -24,9 +24,9 @@
       }
     },
     {
-      "id": "https://knb.poolparty.biz/dossiermetadata/Datum-gewijzigd",
+      "id": "https://knb.poolparty.biz/dossiermetadata/Registratiedatum",
       "prefLabel": {
-        "nl": "Datum gewijzigd"
+        "nl": "Registratiedatum"
       }
     }
   ],

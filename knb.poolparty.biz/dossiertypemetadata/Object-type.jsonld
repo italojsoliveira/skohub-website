@@ -36,6 +36,12 @@
       "prefLabel": {
         "nl": "één-tot-één"
       }
+    },
+    {
+      "id": "https://knb.poolparty.biz/dossiertypemetadata/Aggregatieniveau",
+      "prefLabel": {
+        "nl": "Aggregatieniveau"
+      }
     }
   ],
   "inScheme": [
